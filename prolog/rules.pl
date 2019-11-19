@@ -38,120 +38,860 @@ team(crystal_palace).
 team(leicester).
 team(man_united).
 
-%match(Home, Away, H_goals, S_goals, Result, Referee, H_fouls, A_fouls, H_yellows, A_yellows, H_reds, A_reds).
-match(liverpool, norwich, 4, 1, home, m_oliver, 9, 9, 0, 2, 0, 0).
-match(west_ham, man_city, 0, 5, away, m_dean, 6, 13, 2, 2, 0, 0).
-match(bournemouth, sheffield_united, 1, 1, draw, k_friend, 10, 19, 2, 1, 0, 0).
-match(burnley, southampton, 3, 0, home, g_scott, 6, 12, 0, 0, 0, 0).
-match(crystal_palace, everton, 0, 0, draw, j_moss, 16, 14, 2, 1, 0, 1).
-match(watford, brighton, 0, 3, away, c_pawson, 15, 11, 0, 1, 0, 0).
-match(tottenham, aston_villa, 3, 1, home, c_kavanagh, 13, 9, 1, 0, 0, 0).
-match(leicester, wolves, 0, 0, draw, a_marriner, 3, 13, 0, 2, 0, 0).
-match(newcastle, arsenal, 0, 1, away, m_atkinson, 12, 7, 1, 3, 0, 0).
-match(man_united, chelsea, 4, 0, home, a_taylor, 15, 13, 3, 4, 0, 0).
-match(arsenal, burnley, 2, 1, home, m_dean, 13, 11, 2, 1, 0, 0).
-match(aston_villa, bournemouth, 1, 2, away, m_atkinson, 10, 13, 0, 2, 0, 0).
-match(brighton, west_ham, 1, 1, draw, a_taylor, 11, 10, 0, 2, 0, 0).
-match(everton, watford, 1, 0, home, l_mason, 11, 11, 2, 3, 0, 0).
-match(norwich, newcastle, 3, 1, home, s_attwell, 9, 11, 1, 3, 0, 0).
-match(southampton, liverpool, 1, 2, away, a_marriner, 10, 6, 2, 1, 0, 0).
-match(man_city, tottenham, 2, 2, draw, m_oliver, 14, 4, 1, 0, 0, 0).
-match(sheffield_united, crystal_palace, 1, 0, home, d_coote, 16, 11, 3, 1, 0, 0).
-match(chelsea, leicester, 1, 1, draw, o_langford, 9, 14, 1, 0, 0, 0).
-match(wolves, man_united, 1, 1, draw, j_moss, 17, 8, 2, 2, 0, 0).
-match(aston_villa, everton, 2, 0, home, m_oliver, 10, 18, 2, 3, 0, 0).
-match(norwich, chelsea, 2, 3, away, m_atkinson, 9, 9, 1, 1, 0, 0).
-match(brighton, southampton, 0, 2, away, k_friend, 9, 10, 1, 3, 1, 0).
-match(man_united, crystal_palace, 1, 2, away, p_tierney, 8, 18, 2, 4, 0, 0).
-match(sheffield_united, leicester, 1, 2, away, a_madley, 11, 6, 1, 0, 0, 0).
-match(watford, west_ham, 1, 3, away, c_kavanagh, 12, 11, 1, 1, 0, 0).
-match(liverpool, arsenal, 3, 1, home, a_taylor, 8, 5, 1, 1, 0, 0).
-match(bournemouth, man_city, 1, 3, away, a_marriner, 7, 13, 1, 3, 0, 0).
-match(tottenham, newcastle, 0, 1, away, m_dean, 10, 5, 2, 2, 0, 0).
-match(wolves, burnley, 1, 1, draw, c_pawson, 9, 11, 0, 2, 0, 0).
-match(southampton, man_united, 1, 1, draw, m_dean, 17, 7, 1, 2, 1, 0).
-match(chelsea, sheffield_united, 2, 2, draw, s_attwell, 6, 11, 0, 1, 0, 0).
-match(crystal_palace, aston_villa, 1, 0, home, k_friend, 15, 16, 2, 4, 0, 1).
-match(leicester, bournemouth, 3, 1, home, p_bankes, 9, 11, 1, 3, 0, 0).
-match(man_city, brighton, 4, 0, home, j_moss, 10, 6, 1, 1, 0, 0).
-match(newcastle, watford, 1, 1, draw, g_scott, 5, 11, 2, 3, 0, 0).
-match(west_ham, norwich, 2, 0, home, p_tierney, 16, 10, 2, 1, 0, 0).
-match(burnley, liverpool, 0, 3, away, c_kavanagh, 10, 16, 0, 0, 0, 0).
-match(everton, wolves, 3, 2, home, a_taylor, 12, 12, 1, 4, 0, 1).
-match(arsenal, tottenham, 2, 2, draw, m_atkinson, 13, 19, 3, 5, 0, 0).
-match(liverpool, newcastle, 3, 1, home, a_marriner, 5, 4, 0, 0, 0, 0).
-match(brighton, burnley, 1, 1, draw, m_oliver, 13, 7, 0, 2, 0, 0).
-match(man_united, leicester, 1, 0, home, m_atkinson, 14, 14, 1, 2, 0, 0).
-match(sheffield_united, southampton, 0, 1, away, l_mason, 10, 7, 1, 1, 1, 0).
-match(tottenham, crystal_palace, 4, 0, home, c_pawson, 19, 11, 4, 2, 0, 0).
-match(wolves, chelsea, 2, 5, away, g_scott, 8, 11, 1, 2, 0, 0).
-match(norwich, man_city, 3, 2, home, k_friend, 8, 7, 3, 1, 0, 0).
-match(bournemouth, everton, 3, 1, home, p_tierney, 5, 14, 0, 4, 0, 0).
-match(watford, arsenal, 2, 2, draw, a_taylor, 14, 4, 3, 3, 0, 0).
-match(aston_villa, west_ham, 0, 0, draw, m_dean, 13, 12, 2, 1, 0, 1).
-match(southampton, bournemouth, 1, 3, away, c_kavanagh, 8, 9, 1, 3, 0, 0).
-match(leicester, tottenham, 2, 1, home, p_tierney, 16, 13, 1, 2, 0, 0).
-match(burnley, norwich, 2, 0, home, d_coote, 11, 10, 0, 1, 0, 0).
-match(everton, sheffield_united, 0, 2, away, s_hooper, 9, 9, 1, 3, 0, 0).
-match(man_city, watford, 8, 0, home, m_dean, 5, 9, 2, 2, 0, 0).
-match(newcastle, brighton, 0, 0, draw, m_atkinson, 12, 8, 2, 1, 0, 0).
-match(crystal_palace, wolves, 1, 1, draw, s_attwell, 7, 10, 2, 1, 0, 1).
-match(west_ham, man_united, 2, 0, home, a_taylor, 8, 9, 2, 2, 0, 0).
-match(arsenal, aston_villa, 3, 2, home, j_moss, 13, 15, 5, 1, 1, 0).
-match(chelsea, liverpool, 1, 2, away, m_oliver, 8, 13, 3, 3, 0, 0).
-match(sheffield_united, liverpool, 0, 1, away, a_taylor, 8, 4, 1, 1, 0, 0).
-match(aston_villa, burnley, 2, 2, draw, l_mason, 10, 16, 1, 4, 0, 0).
-match(bournemouth, west_ham, 2, 2, draw, s_attwell, 7, 8, 3, 1, 0, 0).
-match(chelsea, brighton, 2, 0, home, c_kavanagh, 5, 13, 2, 3, 0, 0).
-match(crystal_palace, norwich, 2, 0, home, j_moss, 14, 10, 3, 1, 0, 0).
-match(tottenham, southampton, 2, 1, home, g_scott, 5, 16, 0, 2, 1, 0).
-match(wolves, watford, 2, 0, home, p_tierney, 5, 6, 0, 1, 0, 0).
-match(everton, man_city, 1, 3, away, m_oliver, 4, 8, 2, 2, 0, 0).
-match(leicester, newcastle, 5, 0, home, c_pawson, 12, 9, 1, 1, 0, 1).
-match(man_united, arsenal, 1, 1, draw, k_friend, 18, 13, 4, 2, 0, 0).
-match(brighton, tottenham, 3, 0, home, j_moss, 11, 7, 2, 1, 0, 0).
-match(burnley, everton, 1, 0, home, g_scott, 5, 12, 2, 1, 0, 1).
-match(liverpool, leicester, 2, 1, home, c_kavanagh, 9, 17, 1, 4, 0, 0).
-match(norwich, aston_villa, 1, 5, away, a_madley, 14, 17, 1, 3, 0, 0).
-match(watford, sheffield_united, 0, 0, draw, a_marriner, 7, 6, 0, 2, 0, 0).
-match(west_ham, crystal_palace, 1, 2, away, m_oliver, 11, 7, 3, 2, 0, 0).
-match(arsenal, bournemouth, 1, 0, home, m_atkinson, 12, 6, 1, 2, 0, 0).
-match(man_city, wolves, 0, 2, away, c_pawson, 11, 14, 5, 2, 0, 0).
-match(southampton, chelsea, 1, 4, away, p_tierney, 8, 15, 0, 1, 0, 0).
-match(newcastle, man_united, 1, 0, home, m_dean, 12, 10, 3, 3, 0, 0).
-match(everton, west_ham, 2, 0, home, p_tierney, 15, 15, 2, 2, 0, 0).
-match(aston_villa, brighton, 2, 1, home, d_coote, 9, 17, 1, 2, 0, 1).
-match(bournemouth, norwich, 0, 0, draw, l_mason, 8, 11, 1, 3, 0, 0).
-match(chelsea, newcastle, 1, 0, home, a_marriner, 9, 12, 2, 1, 0, 0).
-match(leicester, burnley, 2, 1, home, j_moss, 4, 10, 0, 3, 0, 0).
-match(tottenham, watford, 1, 1, draw, c_kavanagh, 5, 9, 4, 3, 0, 0).
-match(wolves, southampton, 1, 1, draw, p_bankes, 10, 17, 3, 2, 0, 0).
-match(crystal_palace, man_city, 0, 2, away, a_taylor, 8, 10, 1, 1, 0, 0).
-match(man_united, liverpool, 1, 1, draw, m_atkinson, 6, 14, 0, 1, 0, 0).
-match(sheffield_united, arsenal, 1, 0, home, m_dean, 10, 12, 4, 4, 0, 0).
+%season 18-19
+%match(Home, Away, H_goals, S_goals, Result, Referee, H_shots, A_shots, H_shots_target, A_shots_targer, H_corners, A_corners,
+%      H_fouls, A_fouls, H_yellows, A_yellows, H_reds, A_reds).
+match(sheffield_united, arsenal, 1, 0, home, m_dean, 8, 9, 2, 3, 7, 12, 10, 12, 4, 4, 0, 0).
+match(man_united, liverpool, 1, 1, draw, m_atkinson, 7, 10, 2, 4, 3, 1, 6, 14, 0, 1, 0, 0).
+match(crystal_palace, man_city, 0, 2, away, a_taylor, 7, 21, 2, 10, 1, 8, 8, 10, 1, 1, 0, 0).
+match(wolves, southampton, 1, 1, draw, p_bankes, 4, 14, 1, 5, 1, 3, 10, 17, 3, 2, 0, 0).
+match(tottenham, watford, 1, 1, draw, c_kavanagh, 12, 7, 2, 2, 11, 2, 5, 9, 4, 3, 0, 0).
+match(leicester, burnley, 2, 1, home, j_moss, 19, 13, 3, 4, 9, 4, 4, 10, 0, 3, 0, 0).
+match(chelsea, newcastle, 1, 0, home, a_marriner, 16, 5, 8, 0, 11, 0, 9, 12, 2, 1, 0, 0).
+match(bournemouth, norwich, 0, 0, draw, l_mason, 11, 10, 2, 1, 6, 7, 8, 11, 1, 3, 0, 0).
+match(aston_villa, brighton, 2, 1, home, d_coote, 24, 20, 8, 5, 7, 5, 9, 17, 1, 2, 0, 1).
+match(everton, west_ham, 2, 0, home, p_tierney, 19, 8, 10, 4, 11, 2, 15, 15, 2, 2, 0, 0).
+match(newcastle, man_united, 1, 0, home, m_dean, 12, 12, 2, 3, 4, 6, 12, 10, 3, 3, 0, 0).
+match(southampton, chelsea, 1, 4, away, p_tierney, 10, 13, 3, 7, 3, 4, 8, 15, 0, 1, 0, 0).
+match(man_city, wolves, 0, 2, away, c_pawson, 18, 7, 2, 2, 9, 1, 11, 14, 5, 2, 0, 0).
+match(arsenal, bournemouth, 1, 0, home, m_atkinson, 12, 10, 2, 2, 14, 5, 12, 6, 1, 2, 0, 0).
+match(west_ham, crystal_palace, 1, 2, away, m_oliver, 9, 7, 4, 4, 2, 2, 11, 7, 3, 2, 0, 0).
+match(watford, sheffield_united, 0, 0, draw, a_marriner, 8, 9, 2, 3, 7, 7, 7, 6, 0, 2, 0, 0).
+match(norwich, aston_villa, 1, 5, away, a_madley, 21, 22, 5, 12, 10, 6, 14, 17, 1, 3, 0, 0).
+match(liverpool, leicester, 2, 1, home, c_kavanagh, 18, 2, 8, 1, 4, 6, 9, 17, 1, 4, 0, 0).
+match(burnley, everton, 1, 0, home, g_scott, 9, 11, 3, 2, 7, 9, 5, 12, 2, 1, 0, 1).
+match(brighton, tottenham, 3, 0, home, j_moss, 17, 8, 6, 3, 4, 4, 11, 7, 2, 1, 0, 0).
+match(man_united, arsenal, 1, 1, draw, k_friend, 16, 10, 4, 5, 8, 7, 18, 13, 4, 2, 0, 0).
+match(leicester, newcastle, 5, 0, home, c_pawson, 13, 3, 5, 0, 9, 0, 12, 9, 1, 1, 0, 1).
+match(everton, man_city, 1, 3, away, m_oliver, 12, 20, 8, 9, 5, 2, 4, 8, 2, 2, 0, 0).
+match(wolves, watford, 2, 0, home, p_tierney, 6, 14, 2, 5, 1, 6, 5, 6, 0, 1, 0, 0).
+match(tottenham, southampton, 2, 1, home, g_scott, 9, 14, 4, 6, 6, 6, 5, 16, 0, 2, 1, 0).
+match(crystal_palace, norwich, 2, 0, home, j_moss, 15, 10, 3, 3, 5, 5, 14, 10, 3, 1, 0, 0).
+match(chelsea, brighton, 2, 0, home, c_kavanagh, 24, 8, 10, 1, 5, 2, 5, 13, 2, 3, 0, 0).
+match(bournemouth, west_ham, 2, 2, draw, s_attwell, 13, 17, 5, 6, 6, 6, 7, 8, 3, 1, 0, 0).
+match(aston_villa, burnley, 2, 2, draw, l_mason, 16, 10, 3, 3, 7, 3, 10, 16, 1, 4, 0, 0).
+match(sheffield_united, liverpool, 0, 1, away, a_taylor, 12, 16, 2, 4, 6, 5, 8, 4, 1, 1, 0, 0).
+match(chelsea, liverpool, 1, 2, away, m_oliver, 13, 6, 2, 3, 6, 4, 8, 13, 3, 3, 0, 0).
+match(arsenal, aston_villa, 3, 2, home, j_moss, 21, 14, 6, 9, 9, 4, 13, 15, 5, 1, 1, 0).
+match(west_ham, man_united, 2, 0, home, a_taylor, 8, 9, 6, 3, 3, 7, 8, 9, 2, 2, 0, 0).
+match(crystal_palace, wolves, 1, 1, draw, s_attwell, 13, 14, 4, 4, 6, 7, 7, 10, 2, 1, 0, 1).
+match(newcastle, brighton, 0, 0, draw, m_atkinson, 11, 16, 4, 3, 5, 3, 12, 8, 2, 1, 0, 0).
+match(man_city, watford, 8, 0, home, m_dean, 28, 5, 11, 4, 5, 4, 5, 9, 2, 2, 0, 0).
+match(everton, sheffield_united, 0, 2, away, s_hooper, 16, 2, 3, 1, 12, 3, 9, 9, 1, 3, 0, 0).
+match(burnley, norwich, 2, 0, home, d_coote, 13, 11, 6, 2, 7, 3, 11, 10, 0, 1, 0, 0).
+match(leicester, tottenham, 2, 1, home, p_tierney, 16, 11, 7, 4, 8, 2, 16, 13, 1, 2, 0, 0).
+match(southampton, bournemouth, 1, 3, away, c_kavanagh, 25, 6, 6, 3, 4, 5, 8, 9, 1, 3, 0, 0).
+match(aston_villa, west_ham, 0, 0, draw, m_dean, 10, 13, 5, 1, 2, 4, 13, 12, 2, 1, 0, 1).
+match(watford, arsenal, 2, 2, draw, a_taylor, 31, 10, 7, 4, 7, 1, 14, 4, 3, 3, 0, 0).
+match(bournemouth, everton, 3, 1, home, p_tierney, 13, 14, 6, 5, 7, 7, 5, 14, 0, 4, 0, 0).
+match(norwich, man_city, 3, 2, home, k_friend, 7, 25, 3, 8, 3, 16, 8, 7, 3, 1, 0, 0).
+match(wolves, chelsea, 2, 5, away, g_scott, 11, 15, 4, 6, 7, 5, 8, 11, 1, 2, 0, 0).
+match(tottenham, crystal_palace, 4, 0, home, c_pawson, 13, 11, 5, 6, 4, 3, 19, 11, 4, 2, 0, 0).
+match(sheffield_united, southampton, 0, 1, away, l_mason, 17, 11, 4, 7, 12, 6, 10, 7, 1, 1, 1, 0).
+match(man_united, leicester, 1, 0, home, m_atkinson, 10, 9, 5, 3, 3, 9, 14, 14, 1, 2, 0, 0).
+match(brighton, burnley, 1, 1, draw, m_oliver, 14, 7, 5, 1, 3, 6, 13, 7, 0, 2, 0, 0).
+match(liverpool, newcastle, 3, 1, home, a_marriner, 21, 8, 9, 1, 10, 1, 5, 4, 0, 0, 0, 0).
+match(arsenal, tottenham, 2, 2, draw, m_atkinson, 26, 13, 8, 9, 11, 6, 13, 19, 3, 5, 0, 0).
+match(everton, wolves, 3, 2, home, a_taylor, 15, 8, 6, 5, 7, 7, 12, 12, 1, 4, 0, 1).
+match(burnley, liverpool, 0, 3, away, c_kavanagh, 7, 15, 2, 7, 6, 4, 10, 16, 0, 0, 0, 0).
+match(west_ham, norwich, 2, 0, home, p_tierney, 18, 8, 8, 3, 8, 2, 16, 10, 2, 1, 0, 0).
+match(newcastle, watford, 1, 1, draw, g_scott, 13, 13, 5, 3, 6, 5, 5, 11, 2, 3, 0, 0).
+match(man_city, brighton, 4, 0, home, j_moss, 15, 6, 6, 2, 8, 1, 10, 6, 1, 1, 0, 0).
+match(leicester, bournemouth, 3, 1, home, p_bankes, 13, 8, 5, 2, 4, 5, 9, 11, 1, 3, 0, 0).
+match(crystal_palace, aston_villa, 1, 0, home, k_friend, 22, 10, 5, 2, 13, 2, 15, 16, 2, 4, 0, 1).
+match(chelsea, sheffield_united, 2, 2, draw, s_attwell, 13, 8, 5, 2, 3, 4, 6, 11, 0, 1, 0, 0).
+match(southampton, man_united, 1, 1, draw, m_dean, 10, 21, 2, 8, 2, 3, 17, 7, 1, 2, 1, 0).
+match(wolves, burnley, 1, 1, draw, c_pawson, 17, 13, 2, 4, 4, 3, 9, 11, 0, 2, 0, 0).
+match(tottenham, newcastle, 0, 1, away, m_dean, 17, 8, 2, 3, 6, 6, 10, 5, 2, 2, 0, 0).
+match(bournemouth, man_city, 1, 3, away, a_marriner, 10, 19, 7, 5, 4, 5, 7, 13, 1, 3, 0, 0).
+match(liverpool, arsenal, 3, 1, home, a_taylor, 25, 9, 5, 3, 6, 4, 8, 5, 1, 1, 0, 0).
+match(watford, west_ham, 1, 3, away, c_kavanagh, 23, 16, 3, 10, 8, 7, 12, 11, 1, 1, 0, 0).
+match(sheffield_united, leicester, 1, 2, away, a_madley, 8, 10, 3, 2, 7, 4, 11, 6, 1, 0, 0, 0).
+match(man_united, crystal_palace, 1, 2, away, p_tierney, 22, 5, 3, 3, 8, 1, 8, 18, 2, 4, 0, 0).
+match(brighton, southampton, 0, 2, away, k_friend, 12, 12, 3, 4, 8, 5, 9, 10, 1, 3, 1, 0).
+match(norwich, chelsea, 2, 3, away, m_atkinson, 6, 23, 5, 8, 1, 8, 9, 9, 1, 1, 0, 0).
+match(aston_villa, everton, 2, 0, home, m_oliver, 7, 12, 3, 1, 0, 6, 10, 18, 2, 3, 0, 0).
+match(wolves, man_united, 1, 1, draw, j_moss, 6, 9, 2, 2, 4, 6, 17, 8, 2, 2, 0, 0).
+match(chelsea, leicester, 1, 1, draw, o_langford, 14, 12, 5, 3, 4, 5, 9, 14, 1, 0, 0, 0).
+match(sheffield_united, crystal_palace, 1, 0, home, d_coote, 15, 6, 3, 4, 8, 4, 16, 11, 3, 1, 0, 0).
+match(man_city, tottenham, 2, 2, draw, m_oliver, 30, 3, 10, 2, 13, 2, 14, 4, 1, 0, 0, 0).
+match(southampton, liverpool, 1, 2, away, a_marriner, 14, 15, 3, 6, 5, 9, 10, 6, 2, 1, 0, 0).
+match(norwich, newcastle, 3, 1, home, s_attwell, 15, 10, 8, 3, 7, 5, 9, 11, 1, 3, 0, 0).
+match(everton, watford, 1, 0, home, l_mason, 12, 8, 2, 2, 4, 7, 11, 11, 2, 3, 0, 0).
+match(brighton, west_ham, 1, 1, draw, a_taylor, 16, 8, 4, 3, 8, 6, 11, 10, 0, 2, 0, 0).
+match(aston_villa, bournemouth, 1, 2, away, m_atkinson, 22, 12, 7, 4, 10, 5, 10, 13, 0, 2, 0, 0).
+match(arsenal, burnley, 2, 1, home, m_dean, 16, 18, 9, 5, 10, 7, 13, 11, 2, 1, 0, 0).
+match(man_united, chelsea, 4, 0, home, a_taylor, 11, 18, 5, 7, 3, 5, 15, 13, 3, 4, 0, 0).
+match(newcastle, arsenal, 0, 1, away, m_atkinson, 9, 8, 2, 2, 5, 3, 12, 7, 1, 3, 0, 0).
+match(leicester, wolves, 0, 0, draw, a_marriner, 15, 8, 1, 2, 12, 3, 3, 13, 0, 2, 0, 0).
+match(tottenham, aston_villa, 3, 1, home, c_kavanagh, 31, 7, 7, 4, 14, 0, 13, 9, 1, 0, 0, 0).
+match(watford, brighton, 0, 3, away, c_pawson, 11, 5, 3, 3, 5, 2, 15, 11, 0, 1, 0, 0).
+match(crystal_palace, everton, 0, 0, draw, j_moss, 6, 10, 2, 3, 6, 2, 16, 14, 2, 1, 0, 1).
+match(burnley, southampton, 3, 0, home, g_scott, 10, 11, 4, 3, 2, 7, 6, 12, 0, 0, 0, 0).
+match(bournemouth, sheffield_united, 1, 1, draw, k_friend, 13, 8, 3, 3, 3, 4, 10, 19, 2, 1, 0, 0).
+match(west_ham, man_city, 0, 5, away, m_dean, 5, 14, 3, 9, 1, 1, 6, 13, 2, 2, 0, 0).
+match(liverpool, norwich, 4, 1, home, m_oliver, 15, 12, 7, 5, 11, 2, 9, 9, 0, 2, 0, 0).
 
-referee_yellows_mean(Ref, Y) :- findall(HY, match(_, _, _, _, _, Ref, _, _, HY, _, _, _), HYs),
-    			      sumlist(HYs, HYs_sum),
-			      length(HYs, Length),
-			      findall(AY, match(_, _, _, _, _, Ref, _, _, _, AY, _, _), AYs),
-    			      sumlist(AYs, AYs_sum),
-			      mean(HYs_sum + AYs_sum, Length, Y).
+%season 17-18
+match(west_ham, everton, 3, 1, home, g_scott, 15, 14, 4, 7, 6, 6, 10, 13, 0, 1, 0, 0).
+match(tottenham, leicester, 5, 4, home, c_pawson, 14, 16, 6, 9, 4, 4, 9, 13, 1, 2, 0, 0).
+match(swansea, stoke, 1, 2, away, a_taylor, 26, 8, 11, 5, 6, 0, 12, 9, 1, 2, 0, 0).
+match(southampton, man_city, 0, 1, away, a_marriner, 8, 13, 3, 2, 1, 12, 8, 10, 3, 1, 0, 0).
+match(newcastle, chelsea, 3, 0, home, m_atkinson, 16, 6, 6, 2, 4, 2, 11, 10, 0, 1, 0, 0).
+match(man_united, watford, 1, 0, home, l_mason, 7, 7, 1, 3, 6, 5, 6, 11, 4, 0, 0, 0).
+match(liverpool, brighton, 4, 0, home, k_friend, 22, 2, 11, 1, 7, 3, 3, 6, 0, 0, 0, 0).
+match(huddersfield, arsenal, 0, 1, away, m_oliver, 18, 9, 3, 4, 7, 4, 11, 7, 1, 0, 0, 0).
+match(crystal_palace, west_brom, 2, 0, home, j_moss, 11, 7, 5, 1, 4, 2, 10, 11, 2, 3, 0, 0).
+match(burnley, bournemouth, 1, 2, away, p_tierney, 12, 16, 4, 5, 7, 8, 14, 9, 0, 0, 0, 0).
+match(west_ham, man_united, 0, 0, draw, j_moss, 9, 16, 2, 6, 1, 6, 12, 12, 1, 1, 0, 0).
+match(tottenham, newcastle, 1, 0, home, n_swarbrick, 11, 14, 7, 3, 6, 4, 10, 8, 2, 3, 0, 0).
+match(man_city, brighton, 3, 1, home, p_tierney, 19, 6, 7, 3, 4, 3, 5, 7, 0, 1, 0, 0).
+match(leicester, arsenal, 3, 1, home, g_scott, 19, 14, 10, 7, 6, 6, 7, 12, 2, 2, 0, 1).
+match(chelsea, huddersfield, 1, 1, draw, l_mason, 22, 3, 5, 2, 9, 0, 7, 10, 0, 1, 0, 0).
+match(swansea, southampton, 0, 1, away, m_oliver, 11, 13, 3, 8, 7, 6, 7, 15, 2, 1, 0, 0).
+match(man_city, huddersfield, 0, 0, draw, m_dean, 15, 5, 2, 3, 10, 1, 9, 4, 0, 3, 0, 0).
+match(chelsea, liverpool, 1, 0, home, a_taylor, 12, 10, 4, 5, 3, 1, 12, 9, 3, 2, 0, 0).
+match(arsenal, burnley, 5, 0, home, a_marriner, 16, 6, 8, 2, 4, 5, 6, 7, 0, 1, 0, 0).
+match(west_brom, tottenham, 1, 0, home, m_jones, 9, 18, 1, 5, 5, 9, 13, 12, 4, 1, 0, 0).
+match(watford, newcastle, 2, 1, home, r_east, 11, 9, 8, 1, 2, 5, 9, 11, 2, 1, 0, 0).
+match(stoke, crystal_palace, 1, 2, away, m_atkinson, 7, 13, 2, 2, 1, 7, 18, 12, 5, 2, 0, 0).
+match(leicester, west_ham, 0, 2, away, c_kavanagh, 13, 13, 2, 3, 8, 3, 8, 9, 1, 2, 0, 0).
+match(everton, southampton, 1, 1, draw, j_moss, 9, 11, 3, 5, 3, 4, 14, 12, 2, 4, 0, 1).
+match(bournemouth, swansea, 1, 0, home, k_friend, 13, 12, 5, 3, 11, 6, 10, 10, 1, 4, 0, 0).
+match(brighton, man_united, 1, 0, home, c_pawson, 11, 16, 4, 3, 5, 6, 5, 3, 2, 0, 0, 0).
+match(tottenham, watford, 2, 0, home, m_oliver, 13, 13, 3, 5, 4, 0, 11, 10, 1, 0, 0, 0).
+match(west_ham, man_city, 1, 4, away, n_swarbrick, 4, 19, 1, 7, 0, 7, 5, 11, 0, 1, 0, 0).
+match(man_united, arsenal, 2, 1, home, k_friend, 17, 8, 3, 3, 9, 0, 12, 7, 0, 1, 0, 0).
+match(swansea, chelsea, 0, 1, away, j_moss, 10, 11, 3, 3, 1, 2, 13, 9, 1, 1, 0, 0).
+match(southampton, bournemouth, 2, 1, home, a_taylor, 14, 14, 6, 7, 5, 8, 12, 11, 5, 1, 0, 0).
+match(newcastle, west_brom, 0, 1, away, d_coote, 17, 9, 2, 2, 5, 1, 8, 13, 1, 3, 0, 0).
+match(liverpool, stoke, 0, 0, draw, a_marriner, 20, 5, 2, 1, 9, 2, 7, 14, 1, 2, 0, 0).
+match(huddersfield, everton, 0, 2, away, l_probert, 9, 7, 2, 5, 4, 3, 9, 8, 1, 0, 0, 0).
+match(crystal_palace, leicester, 5, 0, home, m_dean, 15, 6, 9, 1, 8, 2, 11, 9, 1, 1, 0, 1).
+match(burnley, brighton, 0, 0, draw, r_east, 10, 9, 4, 1, 3, 4, 5, 17, 0, 2, 0, 0).
+match(everton, newcastle, 1, 0, home, r_madley, 9, 9, 1, 2, 4, 6, 10, 11, 2, 1, 0, 0).
+match(stoke, burnley, 1, 1, draw, m_dean, 8, 16, 3, 7, 3, 8, 15, 5, 2, 1, 0, 0).
+match(man_city, swansea, 5, 0, home, c_pawson, 19, 4, 12, 1, 5, 1, 6, 8, 0, 1, 0, 0).
+match(arsenal, west_ham, 4, 1, home, l_mason, 20, 11, 8, 4, 8, 6, 11, 9, 3, 2, 0, 0).
+match(west_brom, liverpool, 2, 2, draw, s_attwell, 13, 9, 6, 3, 7, 4, 12, 5, 0, 1, 0, 0).
+match(watford, crystal_palace, 0, 0, draw, c_kavanagh, 14, 6, 4, 1, 4, 3, 17, 13, 3, 5, 0, 0).
+match(leicester, southampton, 0, 0, draw, r_east, 11, 6, 3, 2, 11, 3, 10, 10, 0, 0, 0, 0).
+match(burnley, chelsea, 1, 2, away, r_madley, 5, 16, 2, 5, 3, 2, 9, 11, 1, 0, 0, 0).
+match(bournemouth, man_united, 0, 2, away, g_scott, 13, 13, 2, 4, 8, 5, 9, 8, 3, 1, 0, 0).
+match(brighton, tottenham, 1, 1, draw, k_friend, 8, 16, 5, 6, 3, 4, 6, 5, 1, 0, 0, 0).
+match(west_ham, stoke, 1, 1, draw, m_oliver, 18, 11, 6, 7, 10, 1, 15, 21, 2, 3, 0, 0).
+match(newcastle, arsenal, 2, 1, home, a_taylor, 8, 15, 4, 3, 2, 5, 11, 9, 1, 0, 0, 0).
+match(man_united, west_brom, 0, 1, away, p_tierney, 14, 10, 4, 4, 4, 4, 8, 13, 1, 1, 0, 0).
+match(tottenham, man_city, 1, 3, away, j_moss, 8, 17, 3, 6, 5, 7, 11, 12, 3, 4, 0, 0).
+match(swansea, everton, 1, 1, draw, l_mason, 17, 12, 7, 3, 6, 3, 10, 11, 1, 1, 0, 0).
+match(southampton, chelsea, 2, 3, away, m_dean, 10, 17, 7, 5, 4, 7, 13, 14, 5, 3, 0, 0).
+match(liverpool, bournemouth, 3, 0, home, c_kavanagh, 20, 6, 7, 1, 7, 5, 9, 9, 1, 1, 0, 0).
+match(huddersfield, watford, 1, 0, home, c_pawson, 9, 4, 1, 2, 9, 6, 9, 8, 2, 2, 0, 0).
+match(crystal_palace, brighton, 3, 2, home, a_marriner, 15, 12, 8, 3, 5, 6, 12, 16, 3, 2, 0, 0).
+match(burnley, leicester, 2, 1, home, m_atkinson, 8, 15, 3, 6, 4, 8, 9, 10, 2, 1, 0, 0).
+match(chelsea, west_ham, 1, 1, draw, k_friend, 23, 5, 6, 2, 10, 6, 7, 11, 0, 1, 0, 0).
+match(arsenal, southampton, 3, 2, home, a_marriner, 13, 15, 7, 8, 8, 6, 11, 7, 2, 1, 1, 1).
+match(west_brom, swansea, 1, 1, draw, r_east, 15, 7, 3, 1, 5, 1, 15, 5, 3, 2, 0, 0).
+match(watford, burnley, 1, 2, away, p_tierney, 14, 7, 5, 4, 11, 1, 18, 12, 2, 2, 0, 0).
+match(stoke, tottenham, 1, 2, away, g_scott, 10, 15, 4, 4, 6, 3, 19, 8, 4, 3, 0, 0).
+match(man_city, man_united, 2, 3, away, m_atkinson, 20, 5, 6, 4, 8, 4, 17, 9, 6, 3, 0, 0).
+match(leicester, newcastle, 1, 2, away, s_attwell, 8, 8, 1, 4, 7, 5, 7, 14, 1, 3, 0, 0).
+match(everton, liverpool, 0, 0, draw, m_oliver, 6, 10, 1, 3, 3, 2, 12, 7, 0, 0, 0, 0).
+match(brighton, huddersfield, 1, 1, draw, a_taylor, 13, 14, 4, 5, 5, 3, 13, 7, 1, 0, 1, 0).
+match(bournemouth, crystal_palace, 2, 2, draw, j_moss, 20, 13, 5, 6, 11, 3, 8, 9, 2, 2, 0, 0).
+match(chelsea, tottenham, 1, 3, away, a_marriner, 14, 12, 4, 7, 5, 5, 4, 11, 0, 1, 0, 0).
+match(arsenal, stoke, 3, 0, home, c_pawson, 24, 8, 11, 2, 6, 5, 9, 13, 1, 2, 0, 0).
+match(west_ham, southampton, 3, 0, home, j_moss, 13, 9, 5, 0, 5, 9, 9, 16, 0, 3, 0, 0).
+match(west_brom, burnley, 1, 2, away, l_probert, 8, 11, 3, 4, 1, 6, 12, 9, 1, 3, 0, 0).
+match(watford, bournemouth, 2, 2, draw, a_marriner, 16, 13, 5, 6, 7, 4, 16, 6, 4, 0, 0, 0).
+match(newcastle, huddersfield, 1, 0, home, m_atkinson, 18, 4, 3, 0, 3, 3, 9, 10, 1, 4, 0, 0).
+match(man_united, swansea, 2, 0, home, r_madley, 11, 3, 5, 2, 3, 3, 5, 13, 0, 0, 0, 0).
+match(everton, man_city, 1, 3, away, p_tierney, 6, 18, 2, 4, 2, 11, 10, 8, 0, 0, 0, 0).
+match(crystal_palace, liverpool, 1, 2, away, n_swarbrick, 6, 16, 3, 6, 4, 6, 6, 8, 2, 2, 0, 0).
+match(brighton, leicester, 0, 2, away, c_kavanagh, 15, 6, 3, 4, 6, 1, 11, 13, 2, 4, 0, 1).
+match(stoke, everton, 1, 2, away, m_atkinson, 9, 17, 4, 9, 1, 9, 13, 12, 1, 1, 1, 0).
+match(liverpool, watford, 5, 0, home, a_taylor, 13, 4, 10, 1, 6, 1, 5, 4, 1, 0, 0, 0).
+match(huddersfield, crystal_palace, 0, 2, away, m_dean, 6, 17, 2, 6, 4, 7, 11, 12, 3, 2, 0, 0).
+match(bournemouth, west_brom, 2, 1, home, g_scott, 17, 11, 5, 6, 3, 2, 6, 9, 1, 2, 0, 0).
+match(stoke, man_city, 0, 2, away, j_moss, 3, 17, 0, 6, 3, 10, 6, 8, 1, 0, 0, 0).
+match(bournemouth, tottenham, 1, 4, away, m_dean, 14, 12, 3, 8, 4, 5, 10, 7, 1, 1, 0, 0).
+match(arsenal, watford, 3, 0, home, m_atkinson, 11, 11, 7, 4, 4, 9, 12, 9, 2, 1, 0, 0).
+match(west_ham, burnley, 0, 3, away, l_mason, 13, 7, 4, 4, 5, 1, 13, 7, 2, 2, 0, 0).
+match(west_brom, leicester, 1, 4, away, r_madley, 6, 14, 2, 6, 7, 6, 6, 7, 1, 3, 0, 0).
+match(newcastle, southampton, 3, 0, home, a_marriner, 7, 6, 5, 2, 2, 6, 10, 10, 0, 2, 0, 0).
+match(man_united, liverpool, 2, 1, home, c_pawson, 5, 14, 2, 2, 1, 13, 10, 16, 2, 1, 0, 0).
+match(huddersfield, swansea, 0, 0, draw, m_oliver, 30, 0, 4, 0, 12, 0, 9, 9, 2, 3, 0, 1).
+match(everton, brighton, 2, 0, home, r_east, 13, 10, 3, 4, 10, 3, 10, 14, 0, 1, 0, 1).
+match(chelsea, crystal_palace, 2, 1, home, a_taylor, 27, 9, 11, 2, 12, 3, 8, 9, 1, 2, 0, 0).
+match(crystal_palace, man_united, 2, 3, away, n_swarbrick, 10, 17, 4, 8, 3, 7, 10, 8, 1, 3, 0, 0).
+match(man_city, chelsea, 1, 0, home, m_oliver, 13, 3, 3, 0, 5, 2, 8, 9, 2, 1, 0, 0).
+match(brighton, arsenal, 2, 1, home, s_attwell, 13, 15, 6, 7, 6, 11, 13, 12, 3, 3, 0, 0).
+match(watford, west_brom, 1, 0, home, p_tierney, 15, 9, 4, 2, 4, 6, 11, 12, 2, 0, 0, 0).
+match(tottenham, huddersfield, 2, 0, home, k_friend, 15, 3, 7, 3, 8, 1, 6, 8, 1, 1, 0, 0).
+match(swansea, west_ham, 4, 1, home, m_atkinson, 9, 7, 8, 2, 4, 5, 9, 14, 0, 3, 0, 0).
+match(southampton, stoke, 0, 0, draw, a_taylor, 18, 12, 6, 3, 15, 4, 8, 13, 0, 1, 0, 0).
+match(liverpool, newcastle, 2, 0, home, g_scott, 14, 7, 3, 2, 8, 3, 7, 9, 0, 0, 0, 0).
+match(leicester, bournemouth, 1, 1, draw, l_probert, 23, 8, 4, 3, 13, 1, 11, 7, 2, 1, 0, 0).
+match(burnley, everton, 2, 1, home, c_kavanagh, 21, 10, 8, 4, 10, 4, 9, 12, 1, 1, 0, 1).
+match(arsenal, man_city, 0, 3, away, a_marriner, 10, 9, 5, 5, 6, 1, 11, 11, 1, 1, 0, 0).
+match(man_united, chelsea, 2, 1, home, m_atkinson, 10, 14, 5, 7, 3, 4, 13, 12, 2, 2, 0, 0).
+match(crystal_palace, tottenham, 0, 1, away, k_friend, 5, 14, 3, 4, 2, 13, 12, 5, 0, 1, 0, 0).
+match(west_brom, huddersfield, 1, 2, away, j_moss, 10, 16, 3, 7, 6, 3, 11, 9, 1, 1, 0, 0).
+match(watford, everton, 1, 0, home, a_taylor, 13, 7, 5, 2, 6, 5, 10, 9, 3, 1, 0, 0).
+match(liverpool, west_ham, 4, 1, home, s_attwell, 21, 7, 12, 4, 8, 2, 7, 7, 0, 2, 0, 0).
+match(leicester, stoke, 1, 1, draw, m_oliver, 19, 6, 9, 2, 13, 1, 10, 16, 1, 3, 0, 0).
+match(burnley, southampton, 1, 1, draw, r_madley, 9, 13, 3, 6, 7, 5, 8, 14, 1, 0, 0, 0).
+match(brighton, swansea, 4, 1, home, m_dean, 16, 11, 5, 1, 3, 5, 17, 6, 1, 0, 0, 0).
+match(bournemouth, newcastle, 2, 2, draw, r_east, 18, 15, 5, 4, 8, 1, 12, 10, 1, 4, 0, 0).
+match(chelsea, west_brom, 3, 0, home, l_mason, 20, 8, 8, 1, 8, 7, 11, 11, 0, 2, 0, 0).
+match(southampton, liverpool, 0, 2, away, m_atkinson, 6, 16, 4, 4, 3, 1, 5, 8, 1, 2, 0, 0).
+match(newcastle, man_united, 1, 0, home, c_pawson, 10, 13, 3, 6, 0, 10, 12, 15, 0, 2, 0, 0).
+match(huddersfield, bournemouth, 4, 1, home, m_oliver, 15, 7, 4, 2, 2, 6, 12, 12, 0, 3, 0, 0).
+match(west_ham, watford, 2, 0, home, g_scott, 8, 11, 4, 4, 8, 7, 11, 7, 1, 1, 0, 0).
+match(tottenham, arsenal, 1, 0, home, a_taylor, 18, 6, 6, 1, 10, 2, 13, 9, 2, 1, 0, 0).
+match(swansea, burnley, 1, 0, home, a_marriner, 12, 13, 4, 1, 5, 2, 10, 9, 2, 1, 0, 0).
+match(stoke, brighton, 1, 1, draw, r_madley, 15, 14, 3, 6, 7, 4, 6, 10, 0, 0, 0, 0).
+match(man_city, leicester, 5, 1, home, m_jones, 19, 2, 11, 2, 8, 2, 10, 12, 2, 3, 0, 0).
+match(everton, crystal_palace, 3, 1, home, j_moss, 11, 16, 5, 4, 8, 7, 14, 15, 1, 1, 0, 0).
+match(watford, chelsea, 4, 1, home, m_dean, 21, 7, 8, 3, 6, 2, 11, 8, 2, 2, 0, 1).
+match(liverpool, tottenham, 2, 2, draw, j_moss, 9, 13, 3, 6, 3, 7, 15, 9, 3, 1, 0, 0).
+match(crystal_palace, newcastle, 1, 1, draw, a_marriner, 21, 11, 6, 8, 5, 6, 11, 8, 1, 1, 0, 0).
+match(west_brom, southampton, 2, 3, away, m_oliver, 9, 13, 3, 5, 5, 7, 12, 10, 2, 1, 0, 0).
+match(man_united, huddersfield, 2, 0, home, s_attwell, 16, 4, 7, 0, 5, 2, 5, 19, 2, 4, 0, 0).
+match(leicester, swansea, 1, 1, draw, a_taylor, 13, 3, 5, 1, 3, 3, 9, 8, 1, 0, 0, 0).
+match(burnley, man_city, 1, 1, draw, m_atkinson, 8, 20, 3, 7, 3, 13, 9, 6, 4, 1, 0, 0).
+match(brighton, west_ham, 3, 1, home, r_east, 21, 4, 5, 1, 4, 1, 11, 7, 3, 1, 0, 0).
+match(bournemouth, stoke, 2, 1, home, p_tierney, 15, 13, 8, 4, 8, 1, 14, 19, 2, 3, 0, 0).
+match(arsenal, everton, 5, 1, home, n_swarbrick, 15, 11, 7, 2, 4, 6, 8, 8, 2, 0, 0, 0).
+match(tottenham, man_united, 2, 0, home, a_marriner, 22, 6, 6, 3, 6, 3, 10, 13, 2, 2, 0, 0).
+match(stoke, watford, 0, 0, draw, j_moss, 11, 12, 4, 2, 2, 6, 12, 12, 4, 3, 0, 0).
+match(southampton, brighton, 1, 1, draw, m_dean, 18, 9, 3, 2, 7, 2, 8, 10, 3, 1, 0, 0).
+match(newcastle, burnley, 1, 1, draw, s_hooper, 14, 11, 4, 2, 7, 4, 15, 15, 1, 2, 0, 0).
+match(man_city, west_brom, 3, 0, home, r_madley, 19, 3, 10, 1, 9, 1, 10, 10, 1, 3, 0, 0).
+match(everton, leicester, 2, 1, home, c_kavanagh, 9, 8, 4, 1, 5, 5, 9, 10, 0, 2, 0, 0).
+match(chelsea, bournemouth, 0, 3, away, l_probert, 21, 11, 5, 5, 8, 5, 5, 12, 1, 0, 0, 0).
+match(west_ham, crystal_palace, 1, 1, draw, n_swarbrick, 8, 9, 3, 3, 5, 3, 11, 15, 1, 3, 0, 0).
+match(swansea, arsenal, 3, 1, home, l_mason, 12, 9, 4, 4, 4, 3, 4, 8, 0, 3, 0, 0).
+match(huddersfield, liverpool, 0, 3, away, k_friend, 5, 14, 1, 7, 1, 4, 8, 8, 0, 0, 0, 0).
+match(swansea, liverpool, 1, 0, home, n_swarbrick, 3, 21, 2, 4, 3, 9, 5, 9, 0, 2, 0, 0).
+match(southampton, tottenham, 1, 1, draw, k_friend, 10, 17, 4, 2, 2, 9, 8, 15, 2, 3, 0, 0).
+match(west_ham, bournemouth, 1, 1, draw, m_atkinson, 12, 8, 4, 3, 6, 3, 8, 7, 3, 1, 0, 0).
+match(stoke, huddersfield, 2, 0, home, m_oliver, 11, 6, 6, 3, 3, 2, 18, 13, 1, 1, 0, 0).
+match(man_city, newcastle, 3, 1, home, p_tierney, 21, 6, 9, 4, 18, 0, 5, 10, 0, 1, 0, 0).
+match(leicester, watford, 2, 0, home, l_probert, 9, 11, 5, 3, 4, 5, 11, 10, 0, 0, 0, 0).
+match(everton, west_brom, 1, 1, draw, s_attwell, 9, 15, 4, 5, 0, 3, 15, 10, 2, 1, 0, 0).
+match(burnley, man_united, 0, 1, away, m_dean, 13, 12, 2, 2, 5, 4, 7, 12, 3, 3, 0, 0).
+match(brighton, chelsea, 0, 4, away, j_moss, 10, 14, 3, 10, 5, 3, 12, 5, 3, 0, 0, 0).
+match(arsenal, crystal_palace, 4, 1, home, c_kavanagh, 16, 9, 10, 5, 5, 10, 6, 8, 0, 0, 0, 0).
+match(man_united, stoke, 3, 0, home, a_taylor, 20, 11, 9, 5, 6, 1, 14, 10, 2, 1, 0, 0).
+match(liverpool, man_city, 4, 3, home, a_marriner, 16, 11, 7, 4, 5, 6, 10, 7, 2, 3, 0, 0).
+match(bournemouth, arsenal, 2, 1, home, k_friend, 13, 12, 5, 3, 4, 5, 8, 10, 2, 2, 0, 0).
+match(west_brom, brighton, 2, 0, home, m_atkinson, 15, 13, 4, 1, 9, 6, 8, 15, 0, 0, 0, 0).
+match(watford, southampton, 2, 2, draw, r_east, 16, 10, 4, 4, 5, 4, 11, 13, 0, 5, 0, 0).
+match(tottenham, everton, 4, 0, home, c_pawson, 20, 7, 10, 0, 3, 3, 11, 15, 0, 2, 0, 0).
+match(newcastle, swansea, 1, 1, draw, g_scott, 12, 8, 4, 5, 4, 5, 11, 10, 0, 3, 0, 0).
+match(huddersfield, west_ham, 1, 4, away, j_moss, 8, 8, 2, 6, 7, 3, 7, 9, 1, 1, 0, 0).
+match(crystal_palace, burnley, 1, 0, home, m_oliver, 17, 8, 2, 2, 3, 2, 16, 10, 0, 3, 0, 0).
+match(chelsea, leicester, 0, 0, draw, m_jones, 17, 14, 7, 1, 6, 3, 14, 13, 2, 2, 0, 1).
+match(tottenham, west_ham, 1, 1, draw, m_dean, 31, 3, 8, 1, 7, 1, 10, 6, 0, 2, 0, 0).
+match(arsenal, chelsea, 2, 2, draw, a_taylor, 14, 19, 6, 6, 10, 8, 11, 11, 3, 2, 0, 0).
+match(west_ham, west_brom, 2, 1, home, m_jones, 13, 10, 5, 3, 3, 4, 12, 12, 3, 2, 0, 0).
+match(swansea, tottenham, 0, 2, away, r_madley, 8, 12, 1, 5, 6, 5, 12, 9, 2, 2, 0, 0).
+match(southampton, crystal_palace, 1, 2, away, s_attwell, 10, 11, 3, 4, 4, 7, 8, 11, 0, 1, 0, 0).
+match(man_city, watford, 3, 1, home, l_mason, 17, 7, 7, 4, 9, 1, 8, 12, 1, 1, 0, 0).
+match(stoke, newcastle, 0, 1, away, c_kavanagh, 11, 14, 4, 6, 10, 5, 10, 11, 3, 1, 0, 0).
+match(leicester, huddersfield, 3, 0, home, g_scott, 11, 6, 5, 1, 4, 1, 7, 9, 1, 1, 0, 0).
+match(everton, man_united, 0, 2, away, a_marriner, 12, 21, 0, 6, 6, 6, 11, 10, 2, 0, 0, 0).
+match(burnley, liverpool, 1, 2, away, r_east, 13, 19, 4, 5, 3, 9, 4, 12, 0, 0, 0, 0).
+match(brighton, bournemouth, 2, 2, draw, m_oliver, 15, 26, 6, 8, 5, 12, 13, 9, 2, 1, 0, 0).
+match(west_brom, arsenal, 1, 1, draw, m_dean, 14, 14, 3, 4, 5, 6, 14, 9, 3, 3, 0, 0).
+match(crystal_palace, man_city, 0, 0, draw, j_moss, 10, 15, 1, 4, 7, 8, 14, 11, 5, 4, 0, 0).
+match(watford, swansea, 1, 2, away, m_atkinson, 9, 9, 4, 4, 1, 8, 14, 13, 4, 2, 0, 0).
+match(newcastle, brighton, 0, 0, draw, a_taylor, 11, 10, 2, 3, 3, 6, 11, 10, 2, 2, 0, 0).
+match(man_united, southampton, 0, 0, draw, c_pawson, 15, 8, 3, 3, 10, 7, 12, 13, 2, 4, 0, 0).
+match(liverpool, leicester, 2, 1, home, n_swarbrick, 17, 7, 6, 1, 7, 1, 7, 3, 3, 2, 0, 0).
+match(huddersfield, burnley, 0, 0, draw, p_tierney, 3, 11, 1, 4, 5, 4, 14, 14, 2, 1, 0, 0).
+match(chelsea, stoke, 5, 0, home, k_friend, 21, 1, 12, 1, 7, 0, 5, 10, 1, 1, 0, 0).
+match(bournemouth, everton, 2, 1, home, l_probert, 19, 6, 7, 1, 4, 4, 8, 13, 0, 0, 0, 0).
+match(crystal_palace, arsenal, 2, 3, away, m_oliver, 16, 16, 2, 9, 5, 4, 12, 7, 0, 1, 0, 0).
+match(newcastle, man_city, 0, 1, away, a_marriner, 6, 22, 2, 6, 3, 8, 11, 6, 1, 0, 0, 0).
+match(west_brom, everton, 0, 0, draw, r_east, 17, 7, 3, 3, 10, 2, 14, 13, 2, 0, 0, 0).
+match(watford, leicester, 2, 1, home, c_kavanagh, 11, 11, 1, 5, 8, 8, 7, 13, 3, 3, 0, 0).
+match(tottenham, southampton, 5, 2, home, g_scott, 16, 16, 7, 6, 3, 8, 8, 15, 0, 2, 0, 0).
+match(man_united, burnley, 2, 2, draw, m_atkinson, 23, 3, 6, 2, 12, 2, 10, 14, 3, 7, 0, 0).
+match(liverpool, swansea, 5, 0, home, k_friend, 22, 7, 9, 4, 4, 2, 5, 8, 0, 1, 0, 0).
+match(huddersfield, stoke, 1, 1, draw, a_taylor, 18, 15, 8, 7, 8, 5, 9, 12, 2, 4, 0, 0).
+match(chelsea, brighton, 2, 0, home, m_dean, 25, 8, 8, 1, 13, 1, 8, 8, 0, 1, 0, 0).
+match(bournemouth, west_ham, 3, 3, draw, s_attwell, 26, 10, 10, 5, 7, 4, 12, 14, 3, 4, 0, 0).
+match(west_ham, newcastle, 2, 3, away, l_mason, 19, 11, 6, 4, 6, 3, 9, 12, 1, 1, 0, 0).
+match(swansea, crystal_palace, 1, 1, draw, c_pawson, 7, 13, 2, 5, 6, 3, 13, 11, 2, 3, 0, 0).
+match(stoke, west_brom, 3, 1, home, n_swarbrick, 9, 17, 5, 7, 1, 11, 9, 11, 1, 0, 0, 0).
+match(southampton, huddersfield, 1, 1, draw, l_probert, 12, 10, 6, 3, 9, 1, 16, 9, 2, 1, 0, 0).
+match(man_city, bournemouth, 4, 0, home, m_jones, 14, 5, 5, 1, 4, 6, 8, 7, 0, 1, 0, 0).
+match(leicester, man_united, 2, 2, draw, j_moss, 11, 19, 3, 6, 4, 6, 19, 8, 2, 2, 1, 0).
+match(everton, chelsea, 0, 0, draw, r_madley, 5, 25, 0, 8, 2, 7, 8, 4, 3, 0, 0, 0).
+match(burnley, tottenham, 0, 3, away, m_oliver, 5, 18, 2, 8, 4, 4, 10, 10, 1, 2, 0, 0).
+match(brighton, watford, 1, 0, home, p_tierney, 14, 13, 3, 1, 6, 4, 8, 11, 0, 0, 0, 0).
+match(arsenal, liverpool, 3, 3, draw, m_atkinson, 11, 14, 4, 9, 7, 8, 9, 11, 1, 0, 0, 0).
+match(everton, swansea, 3, 1, home, j_moss, 12, 8, 7, 3, 6, 3, 12, 12, 2, 3, 0, 0).
+match(west_brom, man_united, 1, 2, away, a_taylor, 12, 8, 5, 3, 6, 3, 14, 7, 1, 3, 0, 0).
+match(bournemouth, liverpool, 0, 4, away, a_marriner, 6, 21, 2, 7, 2, 3, 5, 10, 1, 1, 0, 0).
+match(watford, huddersfield, 1, 4, away, m_oliver, 13, 15, 3, 9, 8, 7, 12, 17, 2, 1, 1, 1).
+match(stoke, west_ham, 0, 3, away, g_scott, 17, 14, 0, 7, 7, 9, 12, 13, 2, 1, 0, 0).
+match(man_city, tottenham, 4, 1, home, c_pawson, 20, 7, 11, 2, 5, 1, 13, 20, 2, 4, 0, 0).
+match(leicester, crystal_palace, 0, 3, away, m_atkinson, 11, 13, 2, 6, 6, 4, 12, 13, 2, 2, 1, 0).
+match(chelsea, southampton, 1, 0, home, r_east, 24, 6, 8, 2, 8, 4, 8, 16, 1, 3, 0, 0).
+match(brighton, burnley, 0, 0, draw, c_kavanagh, 12, 11, 2, 6, 8, 2, 13, 13, 4, 2, 0, 0).
+match(arsenal, newcastle, 1, 0, home, s_attwell, 23, 10, 5, 2, 7, 5, 13, 9, 2, 1, 0, 0).
+match(west_ham, arsenal, 0, 0, draw, j_moss, 6, 22, 0, 3, 1, 7, 9, 9, 1, 0, 0, 0).
+match(tottenham, brighton, 2, 0, home, r_madley, 25, 7, 8, 4, 10, 2, 5, 10, 1, 1, 0, 0).
+match(swansea, man_city, 0, 4, away, a_taylor, 7, 23, 3, 10, 2, 5, 12, 6, 0, 0, 0, 0).
+match(southampton, leicester, 1, 4, away, c_kavanagh, 12, 16, 4, 11, 9, 9, 13, 9, 1, 0, 0, 0).
+match(newcastle, everton, 0, 1, away, m_atkinson, 16, 7, 4, 4, 4, 1, 10, 11, 1, 2, 1, 0).
+match(man_united, bournemouth, 1, 0, home, g_scott, 9, 14, 2, 7, 4, 9, 14, 12, 1, 2, 0, 0).
+match(liverpool, west_brom, 0, 0, draw, p_tierney, 14, 6, 5, 1, 5, 7, 16, 6, 1, 0, 0, 0).
+match(huddersfield, chelsea, 1, 3, away, a_marriner, 7, 12, 2, 5, 1, 3, 11, 4, 0, 0, 0, 0).
+match(crystal_palace, watford, 2, 1, home, l_mason, 14, 7, 4, 2, 4, 6, 14, 18, 2, 1, 0, 1).
+match(burnley, stoke, 1, 0, home, m_jones, 10, 14, 2, 7, 6, 4, 6, 14, 0, 0, 0, 0).
+match(southampton, arsenal, 1, 1, draw, r_madley, 6, 11, 3, 6, 4, 5, 12, 10, 2, 2, 0, 0).
+match(man_united, man_city, 1, 2, away, m_oliver, 8, 14, 5, 7, 2, 8, 16, 10, 4, 2, 0, 0).
+match(liverpool, everton, 1, 1, draw, c_pawson, 23, 3, 3, 2, 12, 1, 8, 11, 1, 3, 0, 0).
+match(west_ham, chelsea, 1, 0, home, a_taylor, 5, 19, 2, 2, 4, 3, 10, 10, 6, 1, 0, 0).
+match(tottenham, stoke, 5, 1, home, r_east, 20, 4, 11, 3, 12, 6, 12, 9, 1, 0, 0, 0).
+match(swansea, west_brom, 1, 0, home, m_dean, 18, 7, 3, 1, 6, 3, 8, 18, 2, 5, 0, 0).
+match(newcastle, leicester, 2, 3, away, n_swarbrick, 10, 13, 4, 5, 6, 5, 10, 9, 2, 1, 0, 0).
+match(huddersfield, brighton, 2, 0, home, s_attwell, 19, 7, 6, 2, 8, 1, 6, 10, 0, 0, 0, 0).
+match(crystal_palace, bournemouth, 2, 2, draw, k_friend, 24, 11, 8, 5, 6, 3, 14, 14, 5, 2, 0, 0).
+match(burnley, watford, 1, 0, home, l_probert, 8, 11, 5, 2, 3, 5, 10, 12, 1, 0, 0, 1).
+match(man_city, west_ham, 2, 1, home, m_dean, 24, 7, 8, 4, 10, 4, 5, 7, 2, 2, 0, 0).
+match(bournemouth, southampton, 1, 1, draw, j_moss, 16, 15, 5, 4, 5, 4, 6, 12, 2, 1, 0, 0).
+match(west_brom, crystal_palace, 0, 0, draw, m_oliver, 20, 10, 6, 2, 3, 7, 11, 10, 3, 1, 0, 0).
+match(watford, tottenham, 1, 1, draw, m_atkinson, 6, 8, 2, 2, 7, 2, 16, 8, 4, 1, 0, 1).
+match(stoke, swansea, 2, 1, home, c_pawson, 10, 10, 3, 3, 2, 6, 12, 10, 2, 0, 0, 0).
+match(leicester, burnley, 1, 0, home, p_tierney, 16, 14, 3, 4, 10, 7, 3, 11, 0, 2, 0, 0).
+match(everton, huddersfield, 2, 0, home, c_kavanagh, 6, 5, 4, 3, 2, 5, 12, 9, 2, 1, 0, 0).
+match(chelsea, newcastle, 3, 1, home, k_friend, 23, 8, 9, 2, 11, 4, 8, 13, 0, 1, 0, 0).
+match(brighton, liverpool, 1, 5, away, g_scott, 6, 12, 2, 6, 2, 2, 8, 7, 1, 0, 0, 0).
+match(arsenal, man_united, 1, 3, away, a_marriner, 33, 8, 15, 4, 12, 1, 11, 10, 3, 2, 0, 1).
+match(stoke, liverpool, 0, 3, away, m_atkinson, 10, 14, 1, 7, 5, 9, 8, 10, 1, 5, 0, 0).
+match(man_city, southampton, 2, 1, home, p_tierney, 26, 7, 12, 2, 6, 5, 12, 11, 1, 1, 0, 0).
+match(everton, west_ham, 4, 0, home, m_oliver, 8, 7, 5, 3, 2, 6, 16, 6, 2, 1, 0, 0).
+match(chelsea, swansea, 1, 0, home, n_swarbrick, 21, 2, 10, 0, 15, 1, 10, 7, 1, 0, 0, 0).
+match(bournemouth, burnley, 1, 2, away, r_east, 10, 10, 2, 4, 4, 6, 9, 11, 0, 1, 0, 0).
+match(arsenal, huddersfield, 5, 0, home, g_scott, 21, 7, 7, 2, 7, 2, 10, 12, 0, 1, 0, 0).
+match(west_brom, newcastle, 2, 2, draw, l_probert, 8, 14, 4, 4, 1, 6, 13, 12, 0, 0, 0, 0).
+match(watford, man_united, 2, 4, away, j_moss, 12, 15, 3, 7, 5, 5, 12, 10, 2, 1, 0, 0).
+match(leicester, tottenham, 2, 1, home, a_taylor, 7, 18, 4, 6, 4, 9, 7, 10, 1, 2, 0, 0).
+match(brighton, crystal_palace, 0, 0, draw, a_marriner, 10, 10, 4, 4, 10, 5, 13, 8, 2, 0, 0, 0).
+match(southampton, everton, 4, 1, home, k_friend, 17, 5, 5, 2, 7, 2, 6, 13, 0, 0, 0, 0).
+match(huddersfield, man_city, 1, 2, away, c_pawson, 4, 14, 0, 5, 3, 7, 10, 10, 2, 3, 1, 0).
+match(burnley, arsenal, 0, 1, away, l_mason, 8, 17, 2, 2, 5, 5, 8, 14, 2, 0, 0, 0).
+match(tottenham, west_brom, 1, 1, draw, m_jones, 24, 5, 5, 2, 8, 0, 10, 13, 1, 4, 0, 0).
+match(swansea, bournemouth, 0, 0, draw, s_attwell, 10, 9, 1, 5, 4, 5, 18, 6, 4, 2, 0, 0).
+match(newcastle, watford, 0, 3, away, c_kavanagh, 12, 12, 2, 4, 6, 3, 8, 13, 1, 2, 0, 0).
+match(man_united, brighton, 1, 0, home, n_swarbrick, 15, 8, 4, 2, 5, 0, 9, 9, 0, 2, 0, 0).
+match(liverpool, chelsea, 1, 1, draw, m_oliver, 16, 11, 4, 3, 7, 8, 10, 7, 0, 0, 0, 0).
+match(crystal_palace, stoke, 2, 1, home, m_dean, 10, 9, 5, 3, 5, 2, 9, 5, 1, 1, 0, 0).
+match(west_ham, leicester, 1, 1, draw, m_atkinson, 8, 7, 4, 2, 5, 5, 9, 12, 1, 1, 0, 0).
+match(brighton, stoke, 2, 2, draw, l_mason, 9, 13, 3, 6, 6, 7, 13, 5, 1, 0, 0, 0).
+match(watford, west_ham, 2, 0, home, a_marriner, 17, 10, 7, 6, 3, 1, 13, 10, 1, 4, 0, 0).
+match(west_brom, chelsea, 0, 4, away, j_moss, 7, 11, 2, 7, 3, 4, 13, 12, 2, 3, 0, 0).
+match(man_united, newcastle, 4, 1, home, c_pawson, 16, 12, 7, 5, 11, 4, 10, 9, 1, 1, 0, 0).
+match(liverpool, southampton, 3, 0, home, m_jones, 21, 5, 8, 0, 10, 2, 15, 9, 1, 1, 0, 0).
+match(leicester, man_city, 0, 2, away, g_scott, 2, 12, 0, 4, 1, 7, 8, 10, 1, 1, 0, 0).
+match(crystal_palace, everton, 2, 2, draw, a_taylor, 16, 8, 7, 5, 9, 4, 9, 26, 2, 3, 0, 0).
+match(burnley, swansea, 2, 0, home, m_atkinson, 16, 13, 7, 1, 8, 6, 12, 12, 1, 1, 0, 0).
+match(bournemouth, huddersfield, 4, 0, home, l_probert, 11, 20, 5, 3, 8, 11, 13, 10, 3, 2, 1, 0).
+match(arsenal, tottenham, 2, 0, home, m_dean, 14, 14, 5, 4, 7, 4, 11, 16, 4, 1, 0, 0).
+match(tottenham, crystal_palace, 1, 0, home, k_friend, 12, 11, 2, 3, 10, 9, 6, 7, 0, 2, 0, 0).
+match(man_city, arsenal, 3, 1, home, m_oliver, 9, 6, 5, 3, 5, 5, 15, 15, 1, 6, 0, 0).
+match(everton, watford, 3, 2, home, g_scott, 10, 11, 5, 3, 2, 5, 14, 12, 0, 2, 0, 0).
+match(chelsea, man_united, 1, 0, home, a_taylor, 18, 10, 8, 2, 4, 7, 16, 20, 1, 3, 0, 0).
+match(west_ham, liverpool, 1, 4, away, n_swarbrick, 6, 15, 1, 7, 2, 3, 9, 13, 3, 0, 0, 0).
+match(swansea, brighton, 0, 1, away, m_dean, 12, 5, 2, 2, 8, 7, 13, 12, 2, 1, 0, 0).
+match(stoke, leicester, 2, 2, draw, r_madley, 11, 14, 7, 4, 4, 10, 12, 8, 0, 0, 0, 0).
+match(southampton, burnley, 0, 1, away, l_probert, 13, 5, 3, 1, 9, 1, 4, 4, 0, 0, 0, 0).
+match(newcastle, bournemouth, 0, 1, away, p_tierney, 16, 16, 4, 6, 11, 9, 11, 12, 2, 2, 0, 0).
+match(huddersfield, west_brom, 1, 0, home, r_east, 7, 9, 3, 3, 3, 5, 8, 15, 1, 4, 1, 0).
+match(burnley, newcastle, 1, 0, home, m_dean, 12, 12, 5, 5, 5, 3, 9, 10, 3, 0, 0, 0).
+match(leicester, everton, 2, 0, home, a_marriner, 9, 16, 3, 2, 3, 10, 6, 10, 0, 2, 0, 0).
+match(brighton, southampton, 1, 1, draw, n_swarbrick, 7, 6, 2, 1, 2, 7, 9, 10, 3, 1, 0, 0).
+match(west_brom, man_city, 2, 3, away, m_jones, 6, 15, 4, 5, 1, 2, 10, 7, 2, 3, 0, 0).
+match(watford, stoke, 0, 1, away, m_oliver, 13, 6, 0, 2, 8, 1, 10, 9, 4, 4, 0, 0).
+match(man_united, tottenham, 1, 0, home, j_moss, 11, 13, 3, 4, 6, 3, 12, 14, 1, 0, 0, 0).
+match(liverpool, huddersfield, 3, 0, home, k_friend, 16, 1, 8, 0, 9, 2, 10, 8, 0, 1, 0, 0).
+match(crystal_palace, west_ham, 2, 2, draw, r_madley, 19, 6, 9, 2, 11, 2, 18, 15, 1, 2, 0, 0).
+match(bournemouth, chelsea, 0, 1, away, c_pawson, 7, 18, 1, 5, 5, 5, 5, 5, 2, 0, 0, 0).
+match(arsenal, swansea, 2, 1, home, l_mason, 17, 4, 5, 2, 5, 2, 9, 9, 0, 0, 0, 0).
+match(tottenham, liverpool, 4, 1, home, a_marriner, 14, 12, 6, 7, 3, 5, 2, 8, 0, 1, 0, 0).
+match(everton, arsenal, 2, 5, away, c_pawson, 8, 30, 3, 14, 0, 7, 14, 14, 1, 1, 1, 0).
+match(swansea, leicester, 1, 2, away, m_oliver, 19, 11, 4, 6, 7, 6, 6, 9, 0, 1, 0, 0).
+match(stoke, bournemouth, 1, 2, away, l_probert, 10, 7, 2, 3, 8, 3, 17, 10, 0, 1, 0, 0).
+match(southampton, west_brom, 1, 0, home, g_scott, 20, 7, 6, 2, 8, 3, 10, 8, 0, 1, 0, 0).
+match(newcastle, crystal_palace, 1, 0, home, s_attwell, 7, 10, 3, 0, 3, 5, 12, 14, 4, 2, 0, 0).
+match(man_city, burnley, 3, 0, home, r_east, 15, 6, 10, 0, 4, 5, 10, 6, 2, 3, 0, 0).
+match(huddersfield, man_united, 2, 1, home, l_mason, 5, 9, 3, 3, 4, 7, 10, 12, 4, 2, 0, 0).
+match(chelsea, watford, 4, 2, home, j_moss, 14, 16, 8, 5, 6, 6, 13, 16, 2, 3, 0, 0).
+match(west_ham, brighton, 0, 3, away, m_atkinson, 16, 7, 2, 5, 10, 3, 5, 13, 1, 0, 0, 0).
+match(leicester, west_brom, 1, 1, draw, m_dean, 11, 5, 3, 1, 4, 1, 13, 6, 2, 2, 0, 0).
+match(southampton, newcastle, 2, 2, draw, k_friend, 12, 19, 2, 5, 3, 8, 11, 12, 1, 2, 0, 0).
+match(brighton, everton, 1, 1, draw, m_oliver, 12, 13, 3, 6, 7, 1, 12, 10, 4, 1, 0, 0).
+match(watford, arsenal, 2, 1, home, n_swarbrick, 11, 9, 2, 6, 2, 5, 8, 10, 1, 0, 0, 0).
+match(tottenham, bournemouth, 1, 0, home, r_madley, 18, 5, 6, 1, 9, 5, 9, 7, 1, 3, 0, 0).
+match(swansea, huddersfield, 2, 0, home, p_tierney, 7, 7, 3, 2, 5, 3, 12, 16, 1, 5, 0, 0).
+match(man_city, stoke, 7, 2, home, c_pawson, 20, 5, 11, 1, 5, 0, 5, 8, 0, 1, 0, 0).
+match(liverpool, man_united, 0, 0, draw, m_atkinson, 19, 6, 5, 1, 7, 3, 7, 13, 0, 2, 0, 0).
+match(crystal_palace, chelsea, 2, 1, home, a_marriner, 14, 15, 5, 5, 5, 8, 7, 6, 2, 1, 0, 0).
+match(burnley, west_ham, 1, 1, draw, s_attwell, 20, 8, 5, 6, 7, 4, 11, 14, 2, 2, 0, 1).
+match(newcastle, liverpool, 1, 1, draw, c_pawson, 8, 17, 5, 2, 1, 5, 11, 6, 1, 1, 0, 0).
+match(everton, burnley, 0, 1, away, j_moss, 23, 5, 4, 2, 9, 3, 14, 7, 2, 2, 0, 0).
+match(arsenal, brighton, 2, 0, home, k_friend, 25, 9, 12, 1, 6, 5, 7, 8, 0, 2, 0, 0).
+match(west_ham, swansea, 1, 0, home, r_east, 9, 6, 4, 1, 2, 1, 15, 13, 3, 2, 0, 0).
+match(west_brom, watford, 2, 2, draw, m_oliver, 9, 15, 4, 3, 7, 6, 12, 11, 3, 0, 0, 0).
+match(stoke, southampton, 2, 1, home, m_jones, 17, 21, 6, 3, 5, 6, 11, 10, 1, 2, 0, 0).
+match(man_united, crystal_palace, 4, 0, home, m_dean, 18, 6, 7, 1, 6, 5, 6, 9, 0, 0, 0, 0).
+match(huddersfield, tottenham, 0, 4, away, n_swarbrick, 6, 14, 1, 7, 4, 7, 7, 4, 1, 1, 0, 0).
+match(chelsea, man_city, 0, 1, away, m_atkinson, 4, 17, 2, 6, 4, 8, 8, 13, 0, 2, 0, 0).
+match(bournemouth, leicester, 0, 0, draw, g_scott, 19, 8, 4, 1, 7, 5, 6, 10, 1, 0, 0, 0).
+match(arsenal, west_brom, 2, 0, home, r_madley, 16, 7, 6, 3, 7, 4, 8, 17, 1, 4, 0, 0).
+match(brighton, newcastle, 1, 0, home, a_marriner, 7, 17, 3, 5, 2, 8, 6, 8, 2, 1, 0, 0).
+match(west_ham, tottenham, 2, 3, away, m_oliver, 10, 15, 4, 5, 4, 3, 10, 20, 4, 2, 0, 1).
+match(swansea, watford, 1, 2, away, l_mason, 10, 8, 3, 4, 5, 4, 9, 16, 1, 3, 0, 0).
+match(stoke, chelsea, 0, 4, away, m_dean, 13, 7, 2, 4, 5, 0, 5, 14, 2, 2, 0, 0).
+match(southampton, man_united, 0, 1, away, c_pawson, 14, 9, 4, 4, 8, 4, 12, 9, 1, 4, 0, 0).
+match(man_city, crystal_palace, 5, 0, home, n_swarbrick, 25, 5, 9, 0, 8, 2, 6, 7, 3, 1, 0, 0).
+match(leicester, liverpool, 2, 3, away, a_taylor, 12, 23, 7, 6, 3, 6, 13, 14, 3, 3, 0, 0).
+match(everton, bournemouth, 2, 1, home, m_atkinson, 12, 8, 4, 4, 4, 6, 12, 11, 3, 1, 0, 0).
+match(burnley, huddersfield, 0, 0, draw, c_kavanagh, 5, 9, 3, 2, 3, 4, 9, 13, 3, 2, 0, 0).
+match(man_united, everton, 4, 0, home, a_marriner, 16, 7, 7, 3, 4, 1, 15, 14, 1, 1, 0, 0).
+match(chelsea, arsenal, 0, 0, draw, m_oliver, 13, 11, 4, 2, 5, 1, 11, 15, 1, 3, 1, 0).
+match(west_brom, west_ham, 0, 0, draw, p_tierney, 6, 9, 1, 1, 2, 3, 15, 7, 2, 2, 0, 0).
+match(watford, man_city, 0, 6, away, a_taylor, 7, 28, 1, 10, 3, 11, 8, 6, 2, 0, 0, 0).
+match(tottenham, swansea, 0, 0, draw, m_dean, 26, 4, 8, 0, 11, 1, 11, 9, 1, 3, 0, 0).
+match(newcastle, stoke, 2, 1, home, s_attwell, 14, 13, 3, 4, 7, 5, 13, 11, 3, 1, 0, 0).
+match(liverpool, burnley, 1, 1, draw, r_east, 35, 5, 9, 4, 12, 2, 7, 9, 1, 2, 0, 0).
+match(huddersfield, leicester, 1, 1, draw, j_moss, 15, 10, 3, 1, 8, 4, 6, 6, 1, 1, 0, 0).
+match(crystal_palace, southampton, 0, 1, away, r_madley, 14, 13, 3, 4, 5, 5, 14, 13, 5, 1, 0, 0).
+match(bournemouth, brighton, 2, 1, home, c_pawson, 15, 9, 3, 2, 6, 4, 5, 12, 0, 0, 0, 0).
+match(west_ham, huddersfield, 2, 0, home, k_friend, 19, 10, 3, 2, 10, 3, 11, 14, 1, 2, 0, 0).
+match(swansea, newcastle, 0, 1, away, m_jones, 10, 16, 4, 8, 7, 5, 11, 15, 2, 3, 0, 0).
+match(burnley, crystal_palace, 1, 0, home, m_oliver, 4, 23, 2, 5, 3, 13, 7, 14, 1, 1, 0, 0).
+match(stoke, man_united, 2, 2, draw, n_swarbrick, 10, 18, 5, 8, 5, 11, 10, 10, 0, 0, 0, 0).
+match(southampton, watford, 0, 2, away, l_probert, 9, 12, 1, 3, 7, 4, 8, 11, 0, 0, 0, 0).
+match(man_city, liverpool, 5, 0, home, j_moss, 13, 10, 7, 3, 8, 3, 10, 9, 2, 2, 0, 1).
+match(leicester, chelsea, 1, 2, away, l_mason, 8, 16, 2, 6, 2, 9, 11, 8, 1, 0, 0, 0).
+match(everton, tottenham, 0, 3, away, g_scott, 12, 15, 1, 6, 7, 3, 14, 14, 3, 1, 0, 0).
+match(brighton, west_brom, 3, 1, home, c_kavanagh, 12, 12, 6, 3, 2, 6, 9, 4, 2, 0, 0, 0).
+match(arsenal, bournemouth, 3, 0, home, a_taylor, 15, 6, 8, 1, 8, 2, 14, 8, 0, 1, 0, 0).
+match(west_brom, stoke, 1, 1, draw, a_taylor, 10, 16, 2, 2, 10, 4, 10, 9, 2, 2, 0, 0).
+match(tottenham, burnley, 1, 1, draw, l_mason, 28, 13, 5, 3, 10, 7, 9, 9, 0, 0, 0, 0).
+match(liverpool, arsenal, 4, 0, home, c_pawson, 18, 8, 10, 0, 4, 3, 6, 9, 2, 4, 0, 0).
+match(chelsea, everton, 2, 0, home, j_moss, 18, 7, 7, 0, 6, 3, 12, 7, 2, 2, 0, 0).
+match(watford, brighton, 0, 0, draw, g_scott, 8, 16, 0, 2, 3, 11, 7, 18, 0, 1, 1, 0).
+match(newcastle, west_ham, 3, 0, home, n_swarbrick, 16, 8, 8, 3, 7, 5, 17, 11, 1, 3, 0, 0).
+match(man_united, leicester, 2, 0, home, m_oliver, 22, 11, 7, 4, 9, 3, 8, 7, 1, 2, 0, 0).
+match(huddersfield, southampton, 0, 0, draw, s_attwell, 16, 6, 6, 3, 5, 4, 10, 10, 0, 1, 0, 0).
+match(crystal_palace, swansea, 0, 2, away, a_marriner, 16, 7, 3, 3, 1, 1, 9, 6, 4, 1, 0, 0).
+match(bournemouth, man_city, 1, 2, away, m_dean, 9, 19, 3, 8, 2, 5, 13, 14, 5, 4, 0, 1).
+match(man_city, everton, 1, 1, draw, r_madley, 19, 7, 6, 2, 7, 1, 7, 9, 1, 2, 1, 1).
+match(tottenham, chelsea, 1, 2, away, a_taylor, 18, 9, 6, 2, 14, 3, 14, 21, 3, 3, 0, 0).
+match(huddersfield, newcastle, 1, 0, home, c_pawson, 7, 13, 3, 5, 7, 3, 13, 10, 3, 4, 0, 0).
+match(swansea, man_united, 0, 4, away, j_moss, 6, 17, 1, 8, 3, 5, 12, 11, 1, 1, 0, 0).
+match(stoke, arsenal, 1, 0, home, a_marriner, 11, 18, 4, 6, 2, 9, 6, 11, 0, 0, 0, 0).
+match(southampton, west_ham, 3, 2, home, l_mason, 14, 16, 5, 8, 7, 2, 18, 10, 1, 1, 0, 1).
+match(liverpool, crystal_palace, 1, 0, home, k_friend, 23, 4, 13, 1, 4, 2, 12, 13, 1, 3, 0, 0).
+match(leicester, brighton, 2, 0, home, l_probert, 14, 5, 4, 2, 6, 2, 8, 10, 1, 0, 0, 0).
+match(burnley, west_brom, 0, 1, away, m_atkinson, 20, 8, 0, 1, 5, 5, 11, 11, 1, 0, 0, 1).
+match(bournemouth, watford, 0, 2, away, r_east, 6, 19, 2, 7, 8, 5, 6, 14, 1, 3, 0, 0).
+match(newcastle, tottenham, 0, 2, away, a_marriner, 6, 18, 3, 6, 5, 7, 6, 10, 1, 2, 1, 0).
+match(man_united, west_ham, 4, 0, home, m_atkinson, 22, 9, 6, 1, 11, 1, 19, 7, 2, 2, 0, 0).
+match(west_brom, bournemouth, 1, 0, home, r_madley, 16, 9, 6, 2, 8, 2, 15, 3, 3, 1, 0, 0).
+match(watford, liverpool, 3, 3, draw, a_taylor, 9, 14, 4, 5, 3, 3, 14, 8, 0, 3, 0, 0).
+match(southampton, swansea, 0, 0, draw, m_jones, 29, 4, 2, 0, 13, 0, 10, 13, 2, 1, 0, 0).
+match(everton, stoke, 1, 0, home, n_swarbrick, 9, 9, 4, 1, 6, 7, 13, 10, 1, 1, 0, 0).
+match(crystal_palace, huddersfield, 0, 3, away, j_moss, 14, 8, 4, 6, 12, 9, 7, 19, 1, 3, 0, 0).
+match(chelsea, burnley, 2, 3, away, c_pawson, 19, 10, 6, 5, 8, 5, 16, 11, 3, 3, 2, 0).
+match(brighton, man_city, 0, 2, away, m_oliver, 6, 14, 2, 4, 3, 10, 6, 9, 0, 2, 0, 0).
+match(arsenal, leicester, 4, 3, home, m_dean, 27, 6, 10, 3, 9, 4, 9, 12, 0, 1, 0, 0).
 
-referee_reds_mean(Ref, R) :- findall(HR, match(_, _, _, _, _, Ref, _, _, _, _, HR, _), HRs),
-    			      sumlist(HRs, HRs_sum),
-			      length(HRs, Length),
-			      findall(AR, match(_, _, _, _, _, Ref, _, _, _, _, _, AR), ARs),
-    			      sumlist(ARs, ARs_sum),
-			      mean(HRs_sum + ARs_sum, Length, R).
-
-home_goals_mean(T, G) :- findall(HG, match(T, _, HG, _, _, _, _, _, _, _, _, _), HGs),
-    			 list_mean(HGs, G).
-
-away_goals_mean(T, G) :- findall(AG, match(_, T, _, AG, _, _, _, _, _, _, _, _), AGs),
-			 list_mean(AGs, G).    			      
-
-mean(S, A, R) :- R is S/A.
-
-list_mean(List, Mean) :- sumlist(List, List_sum),
-			 length(List, Length),
-			 mean(List_sum, Length, Mean).
+%season 16-17
+match(watford, man_city, 0, 5, away, j_moss, 6, 15, 3, 9, 4, 5, 12, 10, 1, 0, 0, 0).
+match(swansea, west_brom, 2, 1, home, m_dean, 12, 16, 2, 5, 7, 4, 8, 10, 1, 1, 0, 0).
+match(southampton, stoke, 0, 1, away, l_probert, 14, 14, 6, 3, 4, 10, 12, 10, 2, 4, 0, 0).
+match(man_united, crystal_palace, 2, 0, home, a_taylor, 9, 6, 2, 1, 3, 6, 16, 10, 2, 0, 0, 0).
+match(liverpool, middlesbrough, 3, 0, home, m_atkinson, 25, 9, 10, 3, 3, 3, 13, 8, 0, 1, 0, 0).
+match(leicester, bournemouth, 1, 1, draw, l_mason, 21, 10, 5, 4, 9, 1, 11, 10, 4, 1, 0, 0).
+match(hull, tottenham, 1, 7, away, a_marriner, 10, 19, 4, 14, 2, 3, 14, 5, 0, 0, 0, 0).
+match(chelsea, sunderland, 5, 1, home, n_swarbrick, 28, 7, 8, 3, 11, 1, 8, 15, 1, 1, 0, 0).
+match(burnley, west_ham, 1, 2, away, r_madley, 9, 14, 1, 4, 2, 5, 11, 14, 2, 2, 0, 0).
+match(arsenal, everton, 3, 1, home, m_oliver, 17, 22, 9, 7, 4, 6, 10, 15, 2, 4, 1, 0).
+match(leicester, tottenham, 1, 6, away, m_oliver, 12, 26, 5, 12, 4, 4, 11, 8, 3, 1, 0, 0).
+match(southampton, man_united, 0, 0, draw, m_dean, 17, 11, 6, 1, 7, 3, 7, 10, 2, 1, 0, 0).
+match(man_city, west_brom, 3, 1, home, c_pawson, 21, 5, 10, 2, 7, 1, 8, 11, 1, 2, 0, 0).
+match(arsenal, sunderland, 2, 0, home, r_east, 36, 6, 13, 2, 17, 3, 15, 10, 4, 2, 0, 0).
+match(chelsea, watford, 4, 3, home, l_mason, 24, 9, 9, 3, 8, 3, 7, 12, 2, 4, 0, 1).
+match(west_ham, liverpool, 0, 4, away, n_swarbrick, 10, 26, 3, 11, 4, 6, 5, 10, 2, 0, 0, 0).
+match(tottenham, man_united, 2, 1, home, j_moss, 14, 8, 7, 2, 8, 3, 14, 15, 1, 2, 0, 0).
+match(crystal_palace, hull, 4, 0, home, m_atkinson, 12, 9, 4, 0, 3, 7, 13, 14, 3, 5, 0, 0).
+match(sunderland, swansea, 0, 2, away, a_marriner, 13, 3, 4, 3, 8, 4, 13, 6, 4, 0, 0, 0).
+match(stoke, arsenal, 1, 4, away, m_dean, 10, 10, 4, 6, 7, 6, 13, 7, 1, 2, 0, 0).
+match(middlesbrough, southampton, 1, 2, away, a_taylor, 14, 14, 3, 4, 6, 3, 19, 11, 3, 0, 0, 0).
+match(man_city, leicester, 2, 1, home, r_madley, 17, 9, 5, 4, 9, 3, 12, 16, 3, 3, 0, 0).
+match(bournemouth, burnley, 2, 1, home, l_probert, 18, 14, 6, 3, 7, 1, 6, 11, 0, 1, 0, 0).
+match(west_brom, chelsea, 0, 1, away, m_oliver, 7, 24, 2, 5, 5, 8, 13, 8, 3, 0, 0, 0).
+match(everton, watford, 1, 0, home, k_friend, 15, 14, 6, 2, 9, 8, 7, 11, 0, 3, 0, 0).
+match(southampton, arsenal, 0, 2, away, j_moss, 14, 11, 3, 4, 8, 5, 5, 5, 1, 2, 0, 0).
+match(chelsea, middlesbrough, 3, 0, home, c_pawson, 21, 2, 7, 1, 8, 1, 8, 21, 0, 2, 0, 0).
+match(liverpool, southampton, 0, 0, draw, r_madley, 17, 4, 8, 0, 3, 6, 9, 4, 1, 3, 0, 0).
+match(arsenal, man_united, 2, 0, home, a_marriner, 9, 10, 4, 4, 5, 9, 14, 10, 1, 0, 0, 0).
+match(swansea, everton, 1, 0, home, m_atkinson, 9, 8, 4, 2, 9, 5, 5, 13, 0, 0, 0, 0).
+match(man_city, crystal_palace, 5, 0, home, m_oliver, 26, 5, 12, 2, 9, 3, 12, 8, 1, 3, 0, 0).
+match(leicester, watford, 3, 0, home, r_east, 11, 14, 5, 7, 10, 1, 8, 10, 0, 0, 0, 0).
+match(hull, sunderland, 0, 2, away, n_swarbrick, 16, 12, 6, 5, 7, 4, 10, 8, 3, 1, 0, 0).
+match(burnley, west_brom, 2, 2, draw, m_jones, 14, 11, 4, 3, 5, 8, 9, 14, 1, 3, 0, 0).
+match(bournemouth, stoke, 2, 2, draw, p_tierney, 12, 14, 2, 3, 0, 7, 10, 15, 2, 0, 0, 0).
+match(west_ham, tottenham, 1, 0, home, a_taylor, 13, 11, 5, 5, 3, 7, 8, 9, 4, 2, 0, 0).
+match(watford, liverpool, 0, 1, away, c_pawson, 9, 12, 2, 8, 3, 5, 11, 9, 3, 1, 0, 0).
+match(tottenham, arsenal, 2, 0, home, m_oliver, 20, 12, 11, 4, 14, 5, 7, 15, 1, 3, 0, 0).
+match(middlesbrough, man_city, 2, 2, draw, k_friend, 14, 22, 6, 4, 4, 11, 9, 9, 4, 4, 0, 0).
+match(man_united, swansea, 1, 1, draw, n_swarbrick, 12, 12, 6, 4, 5, 2, 11, 13, 2, 2, 0, 0).
+match(everton, chelsea, 0, 3, away, j_moss, 12, 11, 4, 5, 2, 4, 13, 11, 3, 4, 0, 0).
+match(west_brom, leicester, 0, 1, away, m_clattenburg, 16, 6, 4, 1, 5, 6, 14, 9, 2, 2, 0, 0).
+match(sunderland, bournemouth, 0, 1, away, s_attwell, 17, 15, 5, 7, 6, 5, 13, 9, 3, 2, 0, 0).
+match(stoke, west_ham, 0, 0, draw, l_probert, 19, 12, 4, 4, 5, 3, 12, 3, 1, 0, 0, 0).
+match(southampton, hull, 0, 0, draw, m_dean, 11, 9, 2, 1, 6, 6, 9, 13, 0, 3, 0, 0).
+match(crystal_palace, burnley, 0, 2, away, r_madley, 15, 9, 5, 3, 14, 4, 11, 12, 2, 0, 0, 0).
+match(man_city, man_united, 0, 0, draw, m_atkinson, 19, 3, 6, 1, 7, 4, 10, 8, 1, 0, 0, 1).
+match(middlesbrough, sunderland, 1, 0, home, m_dean, 6, 10, 2, 4, 3, 5, 15, 11, 3, 3, 0, 0).
+match(crystal_palace, tottenham, 0, 1, away, j_moss, 6, 18, 1, 4, 2, 11, 13, 15, 3, 3, 0, 0).
+match(arsenal, leicester, 1, 0, home, m_jones, 12, 7, 5, 3, 12, 1, 9, 13, 2, 4, 0, 0).
+match(chelsea, southampton, 4, 2, home, l_mason, 17, 12, 7, 4, 6, 7, 13, 9, 2, 2, 0, 0).
+match(liverpool, crystal_palace, 1, 2, away, a_marriner, 14, 7, 1, 3, 4, 3, 8, 10, 1, 2, 0, 0).
+match(burnley, man_united, 0, 2, away, a_taylor, 8, 12, 0, 6, 3, 3, 17, 16, 2, 1, 0, 0).
+match(west_ham, everton, 0, 0, draw, r_east, 15, 4, 3, 0, 8, 4, 9, 15, 2, 3, 0, 0).
+match(swansea, stoke, 2, 0, home, m_oliver, 10, 9, 6, 3, 11, 4, 5, 14, 2, 2, 0, 0).
+match(hull, watford, 2, 0, home, r_madley, 8, 13, 3, 2, 4, 7, 10, 11, 3, 1, 1, 0).
+match(bournemouth, middlesbrough, 4, 0, home, g_scott, 20, 5, 10, 2, 4, 3, 4, 14, 0, 2, 0, 1).
+match(middlesbrough, arsenal, 1, 2, away, a_taylor, 13, 12, 5, 4, 2, 4, 11, 16, 2, 2, 0, 0).
+match(west_brom, liverpool, 0, 1, away, j_moss, 7, 15, 2, 2, 4, 4, 15, 9, 3, 1, 0, 0).
+match(man_united, chelsea, 2, 0, home, r_madley, 9, 5, 3, 0, 1, 3, 16, 20, 3, 3, 0, 0).
+match(watford, swansea, 1, 0, home, l_mason, 15, 13, 7, 4, 6, 2, 8, 13, 0, 0, 0, 0).
+match(tottenham, bournemouth, 4, 0, home, m_oliver, 24, 5, 14, 1, 13, 1, 8, 10, 0, 1, 0, 0).
+match(sunderland, west_ham, 2, 2, draw, a_marriner, 14, 7, 4, 3, 8, 1, 14, 10, 1, 0, 0, 1).
+match(stoke, hull, 3, 1, home, s_attwell, 14, 14, 4, 3, 3, 7, 12, 5, 0, 2, 0, 0).
+match(southampton, man_city, 0, 3, away, n_swarbrick, 8, 18, 1, 5, 3, 8, 9, 8, 3, 0, 0, 0).
+match(everton, burnley, 3, 1, home, m_clattenburg, 29, 13, 7, 6, 6, 7, 15, 14, 2, 0, 0, 0).
+match(crystal_palace, leicester, 2, 2, draw, m_dean, 15, 6, 4, 2, 8, 5, 10, 16, 0, 2, 0, 0).
+match(crystal_palace, arsenal, 3, 0, home, m_oliver, 17, 11, 6, 3, 5, 8, 11, 10, 0, 1, 0, 0).
+match(sunderland, man_united, 0, 3, away, c_pawson, 9, 18, 4, 9, 4, 5, 14, 20, 1, 5, 1, 0).
+match(everton, leicester, 4, 2, home, r_madley, 12, 6, 7, 4, 4, 6, 8, 15, 2, 2, 0, 0).
+match(west_ham, swansea, 1, 0, home, k_friend, 14, 4, 6, 1, 4, 3, 12, 12, 5, 1, 0, 0).
+match(west_brom, southampton, 0, 1, away, c_kavanagh, 17, 10, 6, 3, 7, 3, 12, 12, 2, 2, 0, 0).
+match(tottenham, watford, 4, 0, home, a_taylor, 19, 8, 6, 2, 7, 5, 12, 12, 0, 1, 0, 0).
+match(stoke, liverpool, 1, 2, away, m_dean, 9, 14, 4, 4, 5, 8, 7, 11, 0, 2, 0, 0).
+match(middlesbrough, burnley, 0, 0, draw, m_atkinson, 12, 7, 5, 2, 4, 3, 9, 12, 0, 3, 0, 0).
+match(man_city, hull, 3, 1, home, j_moss, 23, 6, 7, 1, 7, 3, 6, 8, 0, 2, 0, 0).
+match(bournemouth, chelsea, 1, 3, away, a_marriner, 12, 15, 1, 5, 4, 4, 7, 11, 2, 3, 0, 0).
+match(swansea, tottenham, 1, 3, away, j_moss, 4, 18, 1, 8, 5, 7, 7, 8, 1, 1, 0, 0).
+match(southampton, crystal_palace, 3, 1, home, r_east, 25, 17, 9, 3, 11, 11, 16, 11, 2, 1, 0, 0).
+match(liverpool, bournemouth, 2, 2, draw, l_mason, 20, 7, 8, 2, 7, 2, 11, 8, 1, 1, 0, 0).
+match(hull, middlesbrough, 4, 2, home, m_oliver, 17, 12, 5, 4, 8, 4, 13, 12, 2, 1, 0, 0).
+match(chelsea, man_city, 2, 1, home, m_dean, 10, 17, 4, 7, 2, 9, 10, 14, 1, 3, 0, 0).
+match(arsenal, west_ham, 3, 0, home, m_atkinson, 21, 7, 8, 2, 5, 0, 11, 5, 2, 2, 0, 0).
+match(watford, west_brom, 2, 0, home, p_tierney, 9, 18, 2, 2, 5, 6, 11, 14, 1, 4, 1, 0).
+match(man_united, everton, 1, 1, draw, n_swarbrick, 18, 11, 3, 4, 6, 5, 10, 18, 1, 4, 0, 1).
+match(leicester, sunderland, 2, 0, home, g_scott, 19, 15, 8, 3, 5, 6, 12, 13, 0, 1, 0, 0).
+match(burnley, stoke, 1, 0, home, k_friend, 7, 15, 3, 2, 3, 5, 9, 16, 3, 2, 0, 0).
+match(swansea, middlesbrough, 0, 0, draw, r_madley, 15, 8, 3, 1, 11, 3, 9, 16, 2, 3, 0, 0).
+match(arsenal, man_city, 2, 2, draw, a_marriner, 8, 14, 3, 5, 3, 8, 8, 15, 3, 2, 0, 0).
+match(watford, sunderland, 1, 0, home, l_probert, 23, 11, 10, 3, 13, 9, 12, 8, 1, 3, 0, 0).
+match(southampton, bournemouth, 0, 0, draw, j_moss, 14, 12, 4, 3, 6, 3, 14, 8, 1, 0, 0, 0).
+match(man_united, west_brom, 0, 0, draw, m_dean, 18, 3, 3, 1, 6, 1, 15, 13, 3, 3, 0, 0).
+match(liverpool, everton, 3, 1, home, a_taylor, 10, 9, 6, 4, 2, 3, 17, 10, 1, 3, 0, 0).
+match(leicester, stoke, 2, 0, home, l_mason, 23, 10, 10, 2, 10, 4, 7, 11, 1, 4, 0, 0).
+match(hull, west_ham, 2, 1, home, m_jones, 7, 12, 3, 4, 5, 5, 16, 9, 2, 2, 0, 0).
+match(chelsea, crystal_palace, 1, 2, away, c_pawson, 24, 8, 11, 3, 9, 3, 12, 14, 3, 2, 0, 0).
+match(burnley, tottenham, 0, 2, away, s_attwell, 13, 19, 2, 7, 3, 7, 9, 6, 2, 0, 0, 0).
+match(tottenham, southampton, 2, 1, home, a_marriner, 12, 8, 6, 3, 5, 1, 12, 13, 3, 3, 0, 0).
+match(middlesbrough, man_united, 1, 3, away, j_moss, 10, 14, 3, 6, 8, 3, 9, 8, 1, 1, 0, 0).
+match(man_city, liverpool, 1, 1, draw, m_oliver, 13, 13, 3, 4, 9, 8, 14, 7, 3, 3, 0, 0).
+match(west_ham, leicester, 2, 3, away, r_east, 20, 11, 7, 5, 6, 5, 10, 14, 0, 1, 0, 0).
+match(west_brom, arsenal, 3, 1, home, n_swarbrick, 12, 11, 8, 2, 4, 5, 5, 6, 1, 0, 0, 0).
+match(sunderland, burnley, 0, 0, draw, r_madley, 14, 17, 5, 3, 3, 5, 14, 7, 2, 1, 0, 0).
+match(stoke, chelsea, 1, 2, away, a_taylor, 5, 20, 1, 7, 5, 11, 16, 11, 4, 2, 1, 0).
+match(everton, hull, 4, 0, home, p_tierney, 14, 6, 8, 0, 5, 8, 9, 7, 2, 0, 0, 1).
+match(crystal_palace, watford, 1, 0, home, m_atkinson, 7, 6, 0, 2, 3, 2, 8, 15, 0, 2, 0, 0).
+match(bournemouth, swansea, 2, 0, home, m_dean, 12, 10, 6, 1, 2, 4, 10, 9, 0, 2, 0, 0).
+match(liverpool, burnley, 2, 1, home, c_pawson, 10, 11, 3, 1, 11, 1, 12, 16, 2, 2, 0, 0).
+match(hull, swansea, 2, 1, home, a_marriner, 15, 11, 7, 3, 2, 7, 14, 5, 3, 1, 0, 0).
+match(everton, west_brom, 3, 0, home, g_scott, 16, 5, 5, 2, 4, 6, 8, 12, 1, 2, 0, 0).
+match(bournemouth, west_ham, 3, 2, home, r_madley, 21, 15, 9, 7, 5, 6, 20, 15, 4, 2, 0, 0).
+match(man_city, stoke, 0, 0, draw, n_swarbrick, 12, 5, 1, 2, 8, 1, 8, 11, 1, 3, 0, 0).
+match(west_ham, chelsea, 1, 2, away, a_marriner, 11, 9, 2, 4, 6, 4, 8, 8, 0, 1, 0, 0).
+match(tottenham, everton, 3, 2, home, m_oliver, 20, 8, 7, 4, 7, 2, 9, 14, 1, 2, 0, 0).
+match(sunderland, man_city, 0, 2, away, m_atkinson, 11, 14, 3, 7, 6, 4, 11, 4, 1, 0, 0, 0).
+match(west_brom, crystal_palace, 0, 2, away, m_jones, 11, 10, 1, 4, 5, 5, 8, 12, 0, 1, 0, 0).
+match(watford, southampton, 3, 4, away, j_moss, 16, 20, 4, 11, 6, 5, 16, 9, 3, 2, 0, 0).
+match(swansea, burnley, 3, 2, home, a_taylor, 23, 6, 10, 4, 9, 2, 7, 13, 2, 2, 0, 0).
+match(stoke, middlesbrough, 2, 0, home, c_pawson, 13, 8, 8, 2, 6, 1, 16, 20, 1, 2, 0, 0).
+match(man_united, bournemouth, 1, 1, draw, k_friend, 20, 3, 7, 1, 15, 2, 9, 11, 3, 2, 0, 1).
+match(liverpool, arsenal, 3, 1, home, r_madley, 18, 7, 7, 3, 9, 3, 8, 15, 1, 2, 0, 0).
+match(leicester, hull, 3, 1, home, m_dean, 17, 10, 5, 4, 10, 4, 12, 13, 1, 1, 0, 0).
+match(leicester, liverpool, 3, 1, home, m_oliver, 13, 17, 7, 7, 5, 12, 8, 5, 0, 0, 0, 0).
+match(tottenham, stoke, 4, 0, home, j_moss, 21, 5, 9, 3, 8, 5, 11, 14, 2, 3, 0, 0).
+match(west_brom, bournemouth, 2, 1, home, m_clattenburg, 13, 12, 4, 4, 8, 6, 12, 5, 2, 0, 0, 0).
+match(watford, west_ham, 1, 1, draw, c_pawson, 9, 13, 1, 2, 4, 6, 18, 14, 4, 1, 0, 1).
+match(hull, burnley, 1, 1, draw, m_atkinson, 15, 10, 1, 3, 6, 3, 8, 13, 1, 1, 0, 1).
+match(everton, sunderland, 2, 0, home, s_attwell, 20, 10, 8, 1, 10, 6, 10, 16, 0, 2, 0, 0).
+match(crystal_palace, middlesbrough, 1, 0, home, r_madley, 15, 11, 3, 4, 4, 2, 13, 15, 3, 1, 0, 0).
+match(chelsea, swansea, 3, 1, home, n_swarbrick, 16, 3, 5, 2, 8, 1, 11, 14, 1, 3, 0, 0).
+match(bournemouth, man_city, 0, 2, away, n_swarbrick, 5, 17, 1, 5, 3, 7, 8, 11, 2, 3, 0, 0).
+match(swansea, leicester, 2, 0, home, j_moss, 10, 9, 4, 1, 7, 3, 7, 14, 2, 2, 0, 0).
+match(burnley, chelsea, 1, 1, draw, k_friend, 6, 13, 4, 2, 1, 1, 12, 11, 3, 2, 0, 0).
+match(west_ham, west_brom, 2, 2, draw, m_oliver, 16, 8, 4, 3, 7, 5, 7, 14, 3, 2, 0, 0).
+match(sunderland, southampton, 0, 4, away, p_tierney, 6, 15, 1, 8, 6, 2, 12, 14, 1, 0, 0, 0).
+match(stoke, crystal_palace, 1, 0, home, m_atkinson, 7, 6, 4, 1, 5, 5, 10, 14, 1, 3, 0, 0).
+match(middlesbrough, everton, 0, 0, draw, m_dean, 9, 7, 3, 3, 5, 2, 14, 9, 2, 0, 0, 0).
+match(man_united, watford, 2, 0, home, r_madley, 22, 9, 11, 3, 5, 1, 10, 12, 1, 0, 0, 0).
+match(liverpool, tottenham, 2, 0, home, a_taylor, 17, 7, 9, 2, 10, 3, 14, 14, 3, 4, 0, 0).
+match(arsenal, hull, 2, 0, home, m_clattenburg, 17, 9, 7, 4, 3, 8, 12, 9, 3, 1, 0, 1).
+match(man_city, swansea, 2, 1, home, m_dean, 17, 4, 5, 2, 10, 3, 9, 13, 2, 3, 0, 0).
+match(leicester, man_united, 0, 3, away, a_taylor, 11, 15, 1, 9, 10, 3, 12, 13, 2, 4, 0, 0).
+match(west_brom, stoke, 1, 0, home, k_friend, 16, 12, 4, 2, 5, 6, 6, 13, 2, 2, 0, 0).
+match(watford, burnley, 2, 1, home, m_oliver, 16, 11, 7, 7, 3, 6, 12, 10, 5, 0, 0, 1).
+match(tottenham, middlesbrough, 1, 0, home, m_clattenburg, 17, 8, 5, 0, 11, 2, 8, 11, 0, 1, 0, 0).
+match(southampton, west_ham, 1, 3, away, g_scott, 21, 6, 7, 4, 3, 2, 12, 15, 0, 2, 0, 0).
+match(hull, liverpool, 2, 0, home, l_mason, 7, 22, 4, 5, 1, 15, 9, 12, 2, 1, 0, 0).
+match(everton, bournemouth, 6, 3, home, m_jones, 15, 18, 10, 8, 4, 8, 14, 4, 3, 1, 0, 0).
+match(crystal_palace, sunderland, 0, 4, away, a_marriner, 21, 10, 9, 7, 6, 1, 8, 8, 3, 3, 0, 0).
+match(chelsea, arsenal, 3, 1, home, m_atkinson, 13, 9, 6, 5, 10, 13, 14, 8, 1, 1, 0, 0).
+match(west_ham, man_city, 0, 4, away, k_friend, 6, 11, 1, 4, 2, 4, 11, 14, 3, 3, 0, 0).
+match(stoke, everton, 1, 1, draw, c_pawson, 14, 14, 7, 5, 5, 5, 21, 12, 1, 0, 0, 0).
+match(man_united, hull, 0, 0, draw, m_jones, 15, 6, 6, 2, 7, 1, 20, 16, 1, 4, 0, 0).
+match(swansea, southampton, 2, 1, home, r_east, 11, 10, 5, 2, 5, 4, 10, 19, 2, 0, 0, 0).
+match(sunderland, tottenham, 0, 0, draw, l_mason, 3, 14, 1, 3, 2, 12, 9, 13, 2, 1, 0, 0).
+match(middlesbrough, west_brom, 1, 1, draw, s_attwell, 11, 16, 3, 5, 4, 2, 12, 13, 2, 1, 0, 0).
+match(liverpool, chelsea, 1, 1, draw, m_clattenburg, 7, 8, 3, 2, 3, 3, 13, 8, 2, 1, 0, 0).
+match(burnley, leicester, 1, 0, home, m_dean, 24, 13, 3, 5, 10, 2, 4, 8, 1, 0, 0, 0).
+match(bournemouth, crystal_palace, 0, 2, away, j_moss, 10, 11, 2, 4, 2, 3, 14, 23, 0, 4, 0, 0).
+match(arsenal, watford, 1, 2, away, a_marriner, 20, 10, 5, 6, 9, 5, 12, 15, 3, 3, 0, 0).
+match(southampton, leicester, 3, 0, home, m_oliver, 20, 11, 7, 2, 7, 2, 8, 10, 0, 1, 0, 0).
+match(chelsea, hull, 2, 0, home, n_swarbrick, 9, 9, 5, 4, 9, 7, 12, 10, 1, 3, 0, 0).
+match(arsenal, burnley, 2, 1, home, j_moss, 24, 13, 8, 7, 10, 4, 12, 11, 1, 3, 1, 0).
+match(west_brom, sunderland, 2, 0, home, c_pawson, 14, 9, 5, 3, 1, 4, 15, 12, 1, 1, 0, 0).
+match(stoke, man_united, 1, 1, draw, m_clattenburg, 6, 25, 1, 8, 1, 7, 12, 13, 4, 0, 0, 0).
+match(middlesbrough, west_ham, 1, 3, away, m_atkinson, 11, 13, 2, 5, 7, 5, 7, 14, 2, 1, 0, 0).
+match(man_city, tottenham, 2, 2, draw, a_marriner, 17, 6, 7, 2, 5, 4, 10, 7, 2, 4, 0, 0).
+match(liverpool, swansea, 2, 3, away, k_friend, 16, 6, 5, 3, 6, 3, 7, 7, 1, 1, 0, 0).
+match(crystal_palace, everton, 0, 1, away, a_taylor, 8, 16, 2, 8, 8, 7, 10, 15, 0, 1, 0, 0).
+match(bournemouth, watford, 2, 2, draw, l_mason, 15, 10, 5, 3, 9, 4, 6, 16, 1, 1, 0, 0).
+match(man_united, liverpool, 1, 1, draw, m_oliver, 9, 13, 3, 4, 5, 7, 17, 13, 1, 3, 0, 0).
+match(everton, man_city, 4, 0, home, m_clattenburg, 6, 13, 4, 5, 3, 6, 17, 7, 2, 2, 0, 0).
+match(west_ham, crystal_palace, 3, 0, home, n_swarbrick, 14, 10, 3, 1, 2, 2, 10, 14, 4, 2, 0, 0).
+match(watford, middlesbrough, 0, 0, draw, j_moss, 12, 5, 5, 1, 3, 1, 15, 15, 3, 1, 0, 0).
+match(tottenham, west_brom, 4, 0, home, a_taylor, 21, 3, 11, 0, 8, 0, 11, 12, 0, 2, 0, 0).
+match(swansea, arsenal, 0, 4, away, m_jones, 12, 14, 3, 6, 3, 2, 12, 8, 2, 0, 0, 0).
+match(sunderland, stoke, 1, 3, away, m_dean, 14, 14, 3, 6, 5, 2, 16, 11, 3, 1, 0, 0).
+match(leicester, chelsea, 0, 3, away, a_marriner, 7, 8, 2, 3, 3, 5, 8, 9, 1, 0, 0, 0).
+match(hull, bournemouth, 3, 1, home, m_atkinson, 14, 8, 3, 6, 4, 5, 13, 11, 0, 1, 0, 0).
+match(burnley, southampton, 1, 0, home, p_tierney, 9, 20, 3, 5, 2, 7, 14, 14, 1, 2, 0, 0).
+match(tottenham, chelsea, 2, 0, home, m_atkinson, 9, 11, 2, 2, 1, 6, 9, 8, 3, 2, 0, 0).
+match(stoke, watford, 2, 0, home, n_swarbrick, 17, 9, 5, 2, 7, 6, 10, 15, 1, 2, 0, 0).
+match(crystal_palace, swansea, 1, 2, away, p_tierney, 7, 11, 3, 4, 4, 5, 13, 14, 2, 1, 0, 0).
+match(bournemouth, arsenal, 3, 3, draw, m_oliver, 12, 14, 6, 4, 4, 7, 10, 12, 3, 3, 1, 0).
+match(west_ham, man_united, 0, 2, away, m_dean, 8, 13, 2, 6, 2, 1, 9, 13, 1, 2, 1, 0).
+match(west_brom, hull, 3, 1, home, m_clattenburg, 8, 17, 5, 6, 7, 9, 5, 4, 0, 0, 0, 0).
+match(sunderland, liverpool, 2, 2, draw, a_taylor, 10, 21, 5, 15, 2, 5, 10, 10, 2, 3, 0, 0).
+match(middlesbrough, leicester, 0, 0, draw, r_madley, 9, 10, 1, 4, 2, 2, 10, 9, 3, 0, 0, 0).
+match(man_city, burnley, 2, 1, home, l_mason, 14, 11, 3, 3, 8, 8, 11, 11, 4, 3, 1, 0).
+match(everton, southampton, 3, 0, home, k_friend, 17, 12, 6, 3, 10, 8, 5, 14, 0, 1, 0, 0).
+match(watford, tottenham, 1, 4, away, m_oliver, 6, 19, 2, 6, 0, 3, 11, 6, 3, 0, 0, 0).
+match(arsenal, crystal_palace, 2, 0, home, a_marriner, 22, 7, 7, 4, 8, 4, 9, 7, 1, 1, 0, 0).
+match(swansea, bournemouth, 0, 3, away, k_friend, 14, 11, 5, 6, 4, 3, 14, 9, 2, 0, 0, 0).
+match(southampton, west_brom, 1, 2, away, m_jones, 10, 7, 1, 3, 8, 3, 13, 17, 1, 3, 1, 0).
+match(man_united, middlesbrough, 2, 1, home, l_mason, 32, 9, 12, 2, 12, 2, 9, 14, 1, 1, 0, 0).
+match(liverpool, man_city, 1, 0, home, c_pawson, 5, 9, 1, 2, 4, 6, 12, 12, 2, 1, 0, 0).
+match(leicester, west_ham, 1, 0, home, a_taylor, 12, 25, 4, 5, 7, 7, 11, 8, 5, 3, 0, 0).
+match(chelsea, stoke, 4, 2, home, r_madley, 18, 5, 7, 2, 8, 3, 12, 10, 3, 2, 0, 0).
+match(burnley, sunderland, 4, 1, home, g_scott, 16, 11, 6, 3, 6, 2, 10, 8, 1, 1, 0, 0).
+match(hull, everton, 2, 2, draw, j_moss, 13, 20, 4, 7, 5, 5, 10, 13, 2, 2, 0, 0).
+match(southampton, tottenham, 1, 4, away, m_dean, 9, 17, 2, 5, 2, 10, 7, 16, 1, 4, 1, 0).
+match(liverpool, stoke, 4, 1, home, m_oliver, 20, 6, 6, 2, 8, 2, 9, 6, 0, 1, 0, 0).
+match(watford, crystal_palace, 1, 1, draw, m_clattenburg, 9, 10, 3, 4, 7, 3, 18, 17, 2, 4, 0, 0).
+match(swansea, west_ham, 1, 4, away, a_marriner, 14, 14, 7, 7, 8, 4, 10, 12, 0, 0, 0, 0).
+match(man_united, sunderland, 3, 1, home, m_atkinson, 26, 7, 9, 4, 5, 5, 6, 9, 1, 1, 0, 0).
+match(leicester, everton, 0, 2, away, s_attwell, 7, 8, 2, 3, 3, 4, 14, 7, 3, 0, 0, 0).
+match(hull, man_city, 0, 3, away, r_madley, 10, 16, 3, 6, 4, 7, 11, 14, 1, 0, 0, 0).
+match(chelsea, bournemouth, 3, 0, home, m_jones, 14, 7, 4, 3, 5, 5, 13, 14, 1, 1, 0, 0).
+match(burnley, middlesbrough, 1, 0, home, c_pawson, 6, 8, 4, 2, 7, 3, 17, 18, 6, 5, 0, 0).
+match(arsenal, west_brom, 1, 0, home, n_swarbrick, 26, 3, 11, 1, 6, 5, 11, 7, 2, 1, 0, 0).
+match(everton, liverpool, 0, 1, away, m_dean, 6, 11, 1, 4, 1, 6, 13, 9, 3, 1, 0, 0).
+match(tottenham, burnley, 2, 1, home, k_friend, 30, 5, 9, 2, 11, 2, 10, 11, 1, 2, 0, 0).
+match(man_city, arsenal, 2, 1, home, m_atkinson, 14, 6, 5, 1, 8, 1, 9, 13, 4, 2, 0, 0).
+match(bournemouth, southampton, 1, 3, away, m_clattenburg, 10, 14, 5, 8, 7, 4, 6, 12, 0, 2, 0, 0).
+match(west_ham, hull, 1, 0, home, l_mason, 18, 16, 6, 5, 10, 6, 13, 9, 2, 4, 0, 0).
+match(west_brom, man_united, 0, 2, away, a_taylor, 10, 10, 1, 5, 2, 3, 9, 13, 3, 3, 0, 0).
+match(sunderland, watford, 1, 0, home, r_madley, 12, 9, 4, 4, 4, 11, 10, 9, 1, 2, 0, 0).
+match(stoke, leicester, 2, 2, draw, c_pawson, 16, 14, 7, 8, 9, 9, 9, 12, 2, 6, 0, 1).
+match(middlesbrough, swansea, 3, 0, home, n_swarbrick, 10, 14, 4, 2, 3, 8, 10, 11, 1, 0, 0, 0).
+match(crystal_palace, chelsea, 0, 1, away, j_moss, 6, 13, 2, 6, 5, 3, 12, 15, 2, 3, 0, 0).
+match(west_ham, burnley, 1, 0, home, r_madley, 20, 8, 7, 2, 6, 1, 12, 15, 0, 2, 0, 0).
+match(west_brom, swansea, 3, 1, home, m_oliver, 13, 8, 4, 4, 0, 11, 8, 8, 0, 0, 0, 0).
+match(tottenham, hull, 3, 0, home, a_marriner, 27, 10, 9, 5, 5, 5, 6, 14, 0, 2, 0, 0).
+match(sunderland, chelsea, 0, 1, away, n_swarbrick, 8, 19, 3, 6, 5, 5, 15, 10, 3, 2, 0, 0).
+match(stoke, southampton, 0, 0, draw, a_taylor, 5, 15, 3, 4, 3, 11, 9, 10, 1, 2, 1, 0).
+match(middlesbrough, liverpool, 0, 3, away, j_moss, 8, 15, 3, 4, 5, 2, 11, 14, 1, 0, 0, 0).
+match(man_city, watford, 2, 0, home, k_friend, 13, 5, 7, 2, 5, 2, 16, 20, 1, 2, 0, 0).
+match(crystal_palace, man_united, 1, 2, away, c_pawson, 6, 16, 3, 6, 1, 8, 16, 10, 2, 2, 0, 0).
+match(everton, arsenal, 2, 1, home, m_clattenburg, 14, 9, 4, 3, 8, 3, 10, 10, 1, 1, 1, 0).
+match(bournemouth, leicester, 1, 0, home, p_tierney, 9, 12, 3, 4, 4, 11, 5, 15, 0, 3, 0, 0).
+match(southampton, middlesbrough, 1, 0, home, s_attwell, 14, 6, 3, 2, 4, 2, 14, 12, 4, 3, 0, 0).
+match(man_united, tottenham, 1, 0, home, r_madley, 15, 12, 5, 4, 3, 8, 19, 17, 3, 3, 0, 0).
+match(liverpool, west_ham, 2, 2, draw, m_clattenburg, 18, 7, 3, 3, 11, 4, 7, 8, 2, 0, 0, 0).
+match(chelsea, west_brom, 1, 0, home, m_dean, 12, 6, 2, 1, 3, 1, 6, 10, 2, 4, 0, 0).
+match(watford, everton, 3, 2, home, a_taylor, 11, 11, 6, 4, 2, 4, 11, 16, 2, 2, 0, 0).
+match(swansea, sunderland, 3, 0, home, c_pawson, 14, 11, 5, 2, 7, 4, 10, 8, 1, 2, 0, 0).
+match(leicester, man_city, 4, 2, home, m_oliver, 10, 19, 6, 4, 3, 11, 10, 7, 2, 1, 0, 0).
+match(hull, crystal_palace, 3, 3, draw, m_jones, 15, 14, 6, 6, 4, 7, 16, 14, 2, 4, 0, 0).
+match(burnley, bournemouth, 3, 2, home, m_atkinson, 16, 17, 7, 4, 4, 11, 14, 18, 2, 2, 0, 0).
+match(arsenal, stoke, 3, 1, home, l_mason, 21, 12, 6, 5, 7, 7, 9, 6, 0, 0, 0, 0).
+match(middlesbrough, hull, 1, 0, home, m_dean, 16, 6, 4, 2, 13, 7, 6, 11, 1, 1, 0, 0).
+match(everton, man_united, 1, 1, draw, m_oliver, 13, 10, 6, 2, 6, 3, 13, 11, 2, 3, 0, 0).
+match(bournemouth, liverpool, 4, 3, home, r_madley, 12, 10, 8, 3, 4, 9, 9, 17, 2, 2, 0, 0).
+match(west_ham, arsenal, 1, 5, away, c_pawson, 10, 19, 3, 10, 3, 2, 10, 11, 3, 3, 0, 0).
+match(west_brom, watford, 3, 1, home, g_scott, 11, 17, 3, 5, 3, 4, 12, 8, 2, 1, 0, 1).
+match(tottenham, swansea, 5, 0, home, j_moss, 28, 1, 15, 0, 5, 0, 11, 17, 0, 4, 0, 0).
+match(sunderland, leicester, 2, 1, home, a_marriner, 22, 17, 6, 5, 3, 4, 8, 12, 3, 1, 0, 0).
+match(stoke, burnley, 2, 0, home, m_clattenburg, 10, 14, 4, 4, 4, 9, 7, 13, 3, 2, 0, 0).
+match(man_city, chelsea, 1, 3, away, a_taylor, 14, 10, 5, 4, 9, 2, 14, 9, 2, 3, 2, 0).
+match(crystal_palace, southampton, 3, 0, home, n_swarbrick, 9, 17, 4, 3, 4, 9, 11, 13, 3, 1, 0, 0).
+match(watford, stoke, 0, 1, away, r_madley, 11, 14, 2, 1, 3, 3, 24, 14, 3, 0, 1, 0).
+match(southampton, everton, 1, 0, home, c_pawson, 17, 13, 7, 1, 5, 2, 11, 15, 0, 2, 0, 0).
+match(man_united, west_ham, 1, 1, draw, j_moss, 17, 6, 8, 2, 8, 4, 16, 16, 3, 1, 0, 0).
+match(arsenal, bournemouth, 3, 1, home, m_jones, 16, 9, 3, 3, 3, 10, 12, 13, 3, 5, 0, 0).
+match(swansea, crystal_palace, 5, 4, home, k_friend, 18, 12, 9, 4, 10, 6, 12, 24, 4, 5, 0, 0).
+match(liverpool, sunderland, 2, 0, home, a_taylor, 27, 6, 7, 1, 9, 4, 5, 9, 1, 3, 0, 0).
+match(leicester, middlesbrough, 2, 2, draw, l_mason, 11, 6, 3, 2, 2, 3, 15, 12, 4, 4, 0, 0).
+match(hull, west_brom, 1, 1, draw, p_tierney, 10, 11, 4, 2, 2, 6, 7, 10, 3, 2, 0, 0).
+match(chelsea, tottenham, 2, 1, home, m_oliver, 9, 12, 5, 6, 3, 8, 13, 16, 2, 1, 0, 0).
+match(burnley, man_city, 1, 2, away, a_marriner, 10, 21, 5, 5, 5, 8, 5, 15, 2, 3, 0, 0).
+match(west_brom, burnley, 4, 0, home, m_jones, 16, 5, 6, 2, 4, 3, 12, 12, 0, 0, 0, 0).
+match(middlesbrough, chelsea, 0, 1, away, j_moss, 12, 13, 1, 3, 2, 3, 13, 10, 2, 3, 0, 0).
+match(watford, leicester, 2, 1, home, n_swarbrick, 10, 10, 3, 2, 4, 6, 12, 18, 2, 3, 0, 0).
+match(tottenham, west_ham, 3, 2, home, m_dean, 14, 11, 6, 3, 4, 5, 13, 16, 3, 2, 0, 1).
+match(sunderland, hull, 3, 0, home, l_mason, 11, 17, 4, 7, 2, 8, 9, 8, 1, 0, 1, 0).
+match(stoke, bournemouth, 0, 1, away, r_east, 14, 9, 6, 2, 3, 4, 17, 10, 3, 2, 0, 0).
+match(southampton, liverpool, 0, 0, draw, m_clattenburg, 3, 15, 0, 2, 1, 8, 8, 11, 1, 1, 0, 0).
+match(man_united, arsenal, 1, 1, draw, a_marriner, 12, 5, 5, 1, 10, 4, 14, 11, 3, 3, 0, 0).
+match(everton, swansea, 1, 1, draw, m_atkinson, 14, 5, 6, 3, 10, 3, 13, 12, 4, 2, 0, 0).
+match(crystal_palace, man_city, 1, 2, away, r_madley, 9, 10, 2, 4, 2, 7, 12, 15, 1, 2, 0, 0).
+match(swansea, man_united, 1, 3, away, n_swarbrick, 6, 9, 1, 3, 2, 0, 9, 16, 0, 2, 0, 0).
+match(liverpool, watford, 6, 1, home, m_oliver, 28, 11, 17, 8, 6, 3, 14, 10, 1, 2, 0, 0).
+match(leicester, west_brom, 1, 2, away, c_pawson, 5, 11, 2, 5, 5, 6, 8, 8, 0, 2, 0, 0).
+match(hull, southampton, 2, 1, home, g_scott, 6, 19, 2, 7, 1, 10, 13, 15, 0, 5, 0, 0).
+match(arsenal, tottenham, 1, 1, draw, m_clattenburg, 15, 10, 2, 3, 7, 2, 11, 17, 1, 2, 0, 0).
+match(west_ham, stoke, 1, 1, draw, a_marriner, 9, 12, 2, 4, 6, 4, 11, 10, 4, 1, 0, 0).
+match(man_city, middlesbrough, 1, 1, draw, k_friend, 25, 5, 7, 3, 8, 2, 7, 15, 1, 3, 0, 0).
+match(chelsea, everton, 5, 0, home, r_madley, 21, 1, 9, 0, 4, 2, 5, 16, 0, 3, 0, 0).
+match(burnley, crystal_palace, 3, 2, home, a_taylor, 14, 16, 7, 5, 4, 7, 11, 12, 1, 2, 0, 0).
+match(bournemouth, sunderland, 1, 2, away, m_dean, 22, 9, 7, 4, 12, 2, 14, 17, 3, 2, 0, 1).
+match(stoke, swansea, 3, 1, home, m_oliver, 17, 14, 4, 6, 6, 4, 7, 14, 2, 0, 0, 0).
+match(southampton, chelsea, 0, 2, away, m_jones, 9, 13, 1, 7, 7, 3, 13, 16, 0, 0, 0, 0).
+match(everton, west_ham, 2, 0, home, a_taylor, 17, 13, 6, 3, 8, 8, 15, 12, 2, 3, 0, 0).
+match(west_brom, man_city, 0, 4, away, l_mason, 9, 21, 1, 8, 1, 7, 17, 10, 4, 3, 0, 0).
+match(watford, hull, 1, 0, home, j_moss, 22, 8, 0, 2, 7, 2, 13, 8, 1, 2, 0, 0).
+match(tottenham, leicester, 1, 1, draw, r_madley, 22, 6, 5, 1, 8, 1, 11, 20, 3, 4, 0, 0).
+match(sunderland, arsenal, 1, 4, away, m_atkinson, 3, 21, 1, 7, 0, 8, 9, 13, 4, 3, 0, 0).
+match(middlesbrough, bournemouth, 2, 0, home, s_attwell, 10, 15, 3, 3, 4, 7, 3, 5, 1, 1, 0, 0).
+match(man_united, burnley, 0, 0, draw, m_clattenburg, 37, 7, 11, 1, 19, 1, 12, 9, 1, 3, 1, 0).
+match(crystal_palace, liverpool, 2, 4, away, a_marriner, 7, 17, 6, 10, 3, 3, 15, 5, 1, 2, 0, 0).
+match(man_city, southampton, 1, 1, draw, m_clattenburg, 14, 6, 3, 2, 10, 3, 11, 10, 3, 3, 0, 0).
+match(chelsea, man_united, 4, 0, home, m_atkinson, 14, 16, 6, 5, 5, 7, 7, 17, 3, 2, 0, 0).
+match(west_ham, sunderland, 1, 0, home, r_madley, 20, 10, 3, 2, 6, 2, 10, 13, 2, 5, 0, 0).
+match(swansea, watford, 0, 0, draw, p_tierney, 11, 10, 5, 2, 7, 2, 15, 16, 2, 1, 0, 0).
+match(liverpool, west_brom, 2, 1, home, n_swarbrick, 21, 6, 7, 1, 3, 2, 9, 13, 1, 3, 0, 0).
+match(leicester, crystal_palace, 3, 1, home, m_oliver, 17, 23, 4, 7, 8, 8, 10, 8, 0, 0, 0, 0).
+match(hull, stoke, 0, 2, away, k_friend, 9, 12, 2, 6, 5, 7, 16, 8, 2, 3, 0, 0).
+match(burnley, everton, 2, 1, home, m_jones, 9, 20, 3, 8, 2, 8, 16, 15, 2, 3, 0, 0).
+match(bournemouth, tottenham, 0, 0, draw, c_pawson, 8, 16, 1, 4, 7, 4, 10, 15, 2, 4, 0, 0).
+match(arsenal, middlesbrough, 0, 0, draw, m_dean, 9, 11, 5, 4, 8, 3, 6, 13, 1, 0, 0, 0).
+match(liverpool, man_united, 0, 0, draw, a_taylor, 9, 7, 3, 1, 3, 1, 14, 20, 0, 4, 0, 0).
+match(southampton, burnley, 3, 1, home, m_dean, 34, 6, 14, 1, 8, 4, 11, 10, 1, 2, 0, 0).
+match(middlesbrough, watford, 0, 1, away, r_east, 10, 4, 3, 2, 4, 6, 15, 10, 4, 1, 0, 0).
+match(west_brom, tottenham, 1, 1, draw, k_friend, 8, 20, 4, 8, 5, 8, 14, 10, 2, 2, 0, 0).
+match(stoke, sunderland, 2, 0, home, m_jones, 18, 11, 6, 1, 6, 4, 10, 13, 1, 1, 0, 0).
+match(man_city, everton, 1, 1, draw, m_oliver, 19, 3, 8, 2, 13, 1, 7, 9, 0, 2, 0, 0).
+match(crystal_palace, west_ham, 0, 1, away, m_atkinson, 12, 12, 3, 4, 7, 6, 12, 13, 1, 3, 0, 1).
+match(chelsea, leicester, 3, 0, home, a_marriner, 16, 5, 6, 0, 8, 5, 6, 12, 1, 1, 0, 0).
+match(bournemouth, hull, 6, 1, home, l_mason, 22, 11, 10, 4, 5, 4, 8, 14, 0, 3, 0, 0).
+match(arsenal, swansea, 3, 2, home, j_moss, 16, 13, 6, 6, 5, 6, 7, 10, 0, 1, 1, 0).
+match(tottenham, man_city, 2, 0, home, a_marriner, 13, 12, 7, 6, 4, 3, 20, 10, 2, 2, 0, 0).
+match(man_united, stoke, 1, 1, draw, r_madley, 24, 7, 9, 6, 13, 2, 14, 9, 3, 0, 0, 0).
+match(leicester, southampton, 0, 0, draw, m_atkinson, 9, 11, 1, 5, 3, 6, 9, 9, 1, 0, 0, 0).
+match(burnley, arsenal, 0, 1, away, c_pawson, 10, 18, 1, 3, 2, 6, 2, 3, 0, 0, 0, 0).
+match(west_ham, middlesbrough, 1, 1, draw, n_swarbrick, 19, 9, 2, 3, 4, 5, 13, 12, 2, 3, 0, 0).
+match(watford, bournemouth, 2, 2, draw, m_dean, 17, 11, 7, 2, 4, 5, 17, 12, 3, 4, 0, 0).
+match(swansea, liverpool, 1, 2, away, m_oliver, 8, 18, 3, 6, 3, 10, 11, 9, 2, 2, 0, 0).
+match(sunderland, west_brom, 1, 1, draw, s_attwell, 7, 17, 2, 7, 6, 5, 7, 13, 1, 3, 0, 0).
+match(hull, chelsea, 0, 2, away, a_taylor, 8, 22, 3, 9, 5, 7, 13, 15, 2, 2, 0, 0).
+match(everton, crystal_palace, 1, 1, draw, j_moss, 13, 10, 3, 2, 10, 9, 16, 11, 5, 4, 0, 0).
+match(burnley, watford, 2, 0, home, m_jones, 13, 12, 4, 3, 7, 6, 11, 15, 1, 3, 0, 0).
+match(west_ham, southampton, 0, 3, away, j_moss, 13, 18, 1, 9, 6, 2, 9, 14, 5, 2, 0, 0).
+match(swansea, man_city, 1, 3, away, n_swarbrick, 13, 18, 5, 4, 2, 7, 15, 9, 2, 4, 0, 0).
+match(sunderland, crystal_palace, 2, 3, away, a_taylor, 11, 20, 4, 4, 3, 5, 15, 12, 0, 2, 0, 0).
+match(stoke, west_brom, 1, 1, draw, m_atkinson, 12, 9, 2, 3, 6, 6, 9, 13, 3, 4, 0, 0).
+match(middlesbrough, tottenham, 1, 2, away, g_scott, 6, 19, 2, 5, 2, 10, 14, 9, 2, 1, 0, 0).
+match(man_united, leicester, 4, 1, home, m_dean, 16, 10, 7, 3, 8, 6, 9, 12, 0, 2, 0, 0).
+match(liverpool, hull, 5, 1, home, a_marriner, 32, 2, 12, 1, 13, 2, 8, 8, 1, 2, 0, 1).
+match(bournemouth, everton, 1, 0, home, r_madley, 12, 13, 1, 2, 5, 3, 10, 14, 2, 2, 0, 0).
+match(arsenal, chelsea, 3, 0, home, m_oliver, 14, 9, 5, 2, 9, 1, 9, 11, 0, 2, 0, 0).
+match(watford, man_united, 3, 1, home, m_oliver, 10, 15, 5, 2, 5, 7, 14, 19, 3, 4, 0, 0).
+match(tottenham, sunderland, 1, 0, home, m_dean, 31, 6, 9, 2, 14, 1, 7, 16, 1, 5, 0, 1).
+match(southampton, swansea, 1, 0, home, m_jones, 19, 9, 6, 3, 7, 1, 14, 9, 1, 1, 0, 0).
+match(crystal_palace, stoke, 4, 1, home, c_pawson, 14, 11, 8, 4, 10, 5, 15, 9, 2, 1, 0, 0).
+match(west_brom, west_ham, 4, 2, home, m_clattenburg, 8, 23, 6, 5, 2, 6, 14, 6, 2, 1, 0, 0).
+match(man_city, bournemouth, 4, 0, home, j_moss, 20, 6, 12, 2, 5, 5, 8, 11, 1, 1, 1, 0).
+match(leicester, burnley, 3, 0, home, a_taylor, 14, 7, 6, 2, 7, 1, 10, 9, 0, 1, 0, 0).
+match(hull, arsenal, 1, 4, away, r_east, 6, 24, 2, 9, 2, 4, 9, 12, 0, 2, 1, 0).
+match(everton, middlesbrough, 3, 1, home, l_mason, 11, 7, 6, 0, 6, 3, 5, 15, 2, 1, 0, 0).
+match(chelsea, liverpool, 1, 2, away, m_atkinson, 12, 13, 4, 5, 6, 4, 6, 13, 1, 1, 0, 0).
+match(sunderland, everton, 0, 3, away, m_jones, 11, 20, 2, 9, 5, 4, 11, 8, 1, 1, 0, 0).
+match(swansea, chelsea, 2, 2, draw, a_marriner, 6, 28, 2, 7, 1, 11, 17, 8, 3, 4, 0, 0).
+match(west_ham, watford, 2, 4, away, m_atkinson, 19, 13, 4, 8, 4, 4, 10, 15, 2, 2, 0, 0).
+match(stoke, tottenham, 0, 4, away, a_taylor, 15, 20, 2, 8, 10, 8, 13, 18, 3, 2, 0, 0).
+match(middlesbrough, crystal_palace, 1, 2, away, n_swarbrick, 12, 12, 4, 4, 6, 6, 5, 9, 1, 2, 0, 0).
+match(man_united, man_city, 1, 2, away, m_clattenburg, 14, 18, 3, 6, 4, 4, 15, 10, 4, 2, 0, 0).
+match(liverpool, leicester, 4, 1, home, c_pawson, 17, 12, 11, 3, 1, 7, 4, 8, 1, 2, 0, 0).
+match(burnley, hull, 1, 1, draw, p_tierney, 13, 11, 2, 3, 5, 9, 13, 3, 2, 0, 0, 0).
+match(bournemouth, west_brom, 1, 0, home, k_friend, 12, 12, 5, 2, 10, 5, 9, 11, 1, 3, 0, 0).
+match(arsenal, southampton, 2, 1, home, r_madley, 17, 11, 2, 5, 6, 1, 10, 8, 2, 5, 0, 0).
+match(west_brom, middlesbrough, 0, 0, draw, a_taylor, 13, 7, 2, 2, 5, 4, 12, 11, 1, 3, 0, 0).
+match(man_city, west_ham, 3, 1, home, a_marriner, 22, 9, 5, 2, 5, 4, 5, 10, 1, 3, 0, 0).
+match(watford, arsenal, 1, 3, away, k_friend, 14, 10, 6, 7, 3, 2, 18, 15, 6, 1, 0, 0).
+match(tottenham, liverpool, 1, 1, draw, r_madley, 11, 13, 4, 3, 5, 5, 11, 17, 3, 5, 0, 0).
+match(southampton, sunderland, 1, 1, draw, l_mason, 16, 5, 7, 2, 5, 5, 15, 8, 2, 2, 0, 0).
+match(leicester, swansea, 2, 1, home, r_east, 13, 9, 6, 3, 4, 6, 14, 10, 2, 2, 0, 0).
+match(hull, man_united, 0, 1, away, j_moss, 8, 29, 2, 9, 1, 6, 9, 6, 2, 3, 0, 0).
+match(everton, stoke, 1, 0, home, m_oliver, 21, 8, 9, 1, 9, 2, 14, 11, 2, 1, 0, 0).
+match(crystal_palace, bournemouth, 1, 1, draw, m_dean, 24, 10, 5, 3, 10, 4, 15, 10, 2, 1, 0, 0).
+match(chelsea, burnley, 3, 0, home, m_clattenburg, 22, 6, 10, 0, 9, 5, 6, 9, 2, 2, 0, 0).
+match(west_ham, bournemouth, 1, 0, home, c_pawson, 15, 8, 2, 5, 1, 6, 15, 15, 3, 1, 0, 1).
+match(sunderland, middlesbrough, 1, 2, away, m_atkinson, 18, 8, 5, 3, 8, 1, 11, 14, 1, 1, 0, 0).
+match(west_brom, everton, 1, 2, away, n_swarbrick, 11, 13, 4, 7, 7, 4, 16, 10, 3, 1, 0, 0).
+match(watford, chelsea, 1, 2, away, j_moss, 6, 13, 2, 4, 0, 5, 20, 10, 4, 3, 0, 0).
+match(tottenham, crystal_palace, 1, 0, home, m_oliver, 20, 10, 5, 2, 10, 4, 19, 9, 3, 3, 0, 0).
+match(swansea, hull, 0, 2, away, s_attwell, 13, 12, 3, 4, 8, 3, 7, 10, 0, 0, 0, 0).
+match(stoke, man_city, 1, 4, away, m_dean, 8, 12, 3, 6, 7, 7, 12, 13, 3, 4, 0, 0).
+match(leicester, arsenal, 0, 0, draw, m_clattenburg, 8, 13, 1, 4, 2, 7, 11, 7, 1, 2, 0, 0).
+match(burnley, liverpool, 2, 0, home, l_mason, 3, 26, 2, 5, 1, 12, 14, 5, 0, 1, 0, 0).
+match(man_united, southampton, 2, 0, home, a_taylor, 12, 13, 5, 1, 4, 0, 11, 8, 0, 0, 0, 0).
+match(chelsea, west_ham, 2, 1, home, a_taylor, 16, 7, 6, 3, 7, 1, 16, 16, 5, 2, 0, 0).
+match(bournemouth, man_united, 1, 3, away, a_marriner, 9, 11, 3, 7, 4, 2, 7, 10, 0, 1, 0, 0).
+match(arsenal, liverpool, 3, 4, away, m_oliver, 9, 16, 5, 7, 5, 4, 13, 17, 3, 3, 0, 0).
+match(southampton, watford, 1, 1, draw, r_east, 24, 5, 6, 1, 6, 2, 8, 12, 1, 2, 0, 1).
+match(middlesbrough, stoke, 1, 1, draw, k_friend, 12, 12, 2, 1, 9, 6, 18, 14, 3, 5, 0, 0).
+match(man_city, sunderland, 2, 1, home, r_madley, 16, 7, 4, 3, 9, 6, 11, 14, 1, 2, 0, 0).
+match(hull, leicester, 2, 1, home, m_dean, 14, 18, 5, 5, 5, 3, 8, 17, 2, 2, 0, 0).
+match(everton, tottenham, 1, 1, draw, m_atkinson, 12, 13, 6, 4, 5, 6, 10, 14, 0, 0, 0, 0).
+match(crystal_palace, west_brom, 0, 1, away, c_pawson, 14, 13, 4, 3, 3, 6, 12, 15, 2, 2, 0, 0).
+match(burnley, swansea, 0, 1, away, j_moss, 10, 17, 3, 9, 7, 4, 10, 14, 3, 2, 0, 0).

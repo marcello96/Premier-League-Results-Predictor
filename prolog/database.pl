@@ -8,9 +8,6 @@ sedzia(dean, 4.38, 0.25).
 sedzia(friend, 4.60, 0.40).
 sedzia(atkinson, 3.25, 0).
 
-mecz(
-
-
 wynik(gospodarz) :-
         sedzie_sprzyja(gospodarz),
         forma(gosc, slaba).
